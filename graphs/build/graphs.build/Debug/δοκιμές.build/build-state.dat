@@ -1,0 +1,1325 @@
+Tδοκιμές
+v7
+r0
+t320598001.872934
+cCheck dependencies
+cCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o /Users/alex/Documents/code/graphs/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/loadNGCE.o /Users/alex/Documents/code/graphs/loadNGCE.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/limits.o /Users/alex/Documents/code/graphs/limits.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/clBasic.o /Users/alex/Documents/code/graphs/clBasic.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/sourceKernel.o /Users/alex/Documents/code/graphs/sourceKernel.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/betweeness.o /Users/alex/Documents/code/graphs/betweeness.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/timing.o /Users/alex/Documents/code/graphs/timing.c normal x86_64 c com.apple.compilers.gcc.4_2
+cLd /Users/alex/Documents/code/graphs/build/Debug/δοκιμές normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenCL.framework/Headers/opencl.h
+c000000004BE85FE0000000000000022A
+t1273520096
+s554
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenCL.framework/OpenCL
+c000000004BF47010000000000000A1FC
+t1274310672
+s41468
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/errno.h
+c000000004AC59C8100000000000003EB
+t1254464641
+s1003
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004AC59C820000000000002DF5
+t1254464642
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004AC59C820000000000001731
+t1254464642
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/resource.h
+c000000004B90BBAA0000000000002436
+t1267776426
+s9270
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
+c000000004AC59C82000000000000178E
+t1254464642
+s6030
+
+N/Users/alex/Documents/code/graphs/betweeness.c
+c000000004CFEA12900000000000010CB
+t1291755817
+s4299
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<errno.h>
+i"betweeness.h"
+i"orders.h"
+i"node.h"
+
+N/Users/alex/Documents/code/graphs/betweeness.h
+c000000004CFE9E0C0000000000000317
+t1291755020
+s791
+i"node.h"
+
+N/Users/alex/Documents/code/graphs/betweness.c
+c000000004CFE9D600000000000000FFB
+t1291754848
+s4091
+i<stdio.h>
+i<stdlib.h>
+i"betweness.h"
+i"orders.h"
+i"node.h"
+
+N/Users/alex/Documents/code/graphs/betweness.h
+c000000004CFE9D520000000000000310
+t1291754834
+s784
+i"node.h"
+
+N/Users/alex/Documents/code/graphs/build/Debug/δοκιμές
+t1298905201
+s30672
+
+N/Users/alex/Documents/code/graphs/build/Debug/δοκιμές
+t1291755818
+s21320
+
+N/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/betweeness.o
+t1292003564
+s7016
+
+N/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/betweeness.o
+t1291755817
+s6228
+
+N/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/betweness.o
+t1291754848
+s6432
+
+N/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/clBasic.o
+t1291935462
+s12600
+
+N/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/clBasic.o
+t1291935462
+s12600
+
+N/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/limits.o
+t1292003564
+s5272
+
+N/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/limits.o
+t1291755800
+s4900
+
+N/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/loadNGCE.o
+t1292003564
+s7724
+
+N/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/loadNGCE.o
+t1292003564
+s7724
+
+N/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o
+t1298302788
+s11836
+
+N/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o
+t1291755798
+s5808
+
+N/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/sourceKernel.o
+t1291849426
+s4748
+
+N/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/sourceKernel.o
+t1291755800
+s4748
+
+N/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/timing.o
+t1291754421
+s3516
+
+N/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/timing.o
+t1291754421
+s3516
+
+N/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/δοκιμές.LinkFileList
+c000000004CFE9E7B0000000000000314
+t1291755131
+s788
+
+N/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/δοκιμές.LinkFileList
+c000000004CFE9E7B0000000000000314
+t1291755131
+s788
+
+N/Users/alex/Documents/code/graphs/clBasic.c
+c000000004D015EE60000000000002106
+t1291935462
+s8454
+i<OpenCL/OpenCL.h>
+i<stdio.h>
+i<stdlib.h>
+i"clBasic.h"
+i"orders.h"
+
+N/Users/alex/Documents/code/graphs/clBasic.h
+c000000004D0159B40000000000000349
+t1291934132
+s841
+
+N/Users/alex/Documents/code/graphs/limits.c
+c000000004CF8032800000000000007BA
+t1291322152
+s1978
+i<sys/resource.h>
+i<stdio.h>
+i<stdlib.h>
+i<errno.h>
+i<string.h>
+i"limits.h"
+i"node.h"
+i"orders.h"
+
+N/Users/alex/Documents/code/graphs/limits.h
+c000000004CF7EAF20000000000000152
+t1291315954
+s338
+
+N/Users/alex/Documents/code/graphs/loadNGCE.c
+c000000004D014C550000000000000DE7
+t1291930709
+s3559
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<errno.h>
+i"loadNGCE.h"
+i"node.h"
+i"orders.h"
+i"limits.h"
+
+N/Users/alex/Documents/code/graphs/loadNGCE.h
+c000000004CF800680000000000000120
+t1291321448
+s288
+i"node.h"
+
+N/Users/alex/Documents/code/graphs/main.c
+c000000004D6287440000000000001FA2
+t1298302788
+s8098
+i<stdlib.h>
+i<stdio.h>
+i<OpenCL/OpenCL.h>
+i"node.h"
+i"loadNGCE.h"
+i"limits.h"
+i"orders.h"
+i"clBasic.h"
+i"sourceKernel.h"
+i"betweeness.h"
+i"timing.h"
+
+N/Users/alex/Documents/code/graphs/node.h
+c000000004D02642B0000000000000362
+t1292002347
+s866
+
+N/Users/alex/Documents/code/graphs/orders.h
+c000000004CFEA2EC00000000000005A9
+t1291756268
+s1449
+
+N/Users/alex/Documents/code/graphs/sourceKernel.c
+c000000004D000ED200000000000005B4
+t1291849426
+s1460
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<errno.h>
+i"orders.h"
+i"sourceKernel.h"
+
+N/Users/alex/Documents/code/graphs/sourceKernel.h
+c000000004D000EC60000000000000100
+t1291849414
+s256
+
+N/Users/alex/Documents/code/graphs/timing.c
+c000000004CFE97E800000000000001FE
+t1291753448
+s510
+i<stdio.h>
+i<time.h>
+i"timing.h"
+
+N/Users/alex/Documents/code/graphs/timing.h
+c000000004CFE886700000000000000DF
+t1291749479
+s223
+
+N/Users/alex/Documents/code/opencl/γράφοι/build/Debug/δοκιμές
+t1291022169
+s20272
+
+N/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/centality.o
+t2
+s0
+
+N/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/centrality.o
+t1291056531
+s3388
+
+N/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/clBasic.o
+t1291003019
+s8644
+
+N/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/degree.o
+t1291053772
+s2712
+
+N/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/kernel.o
+t2
+s0
+
+N/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/limits.o
+t1291055433
+s5172
+
+N/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/loadNGCE.o
+t1291003019
+s7480
+
+N/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o
+t1291056527
+s6044
+
+N/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/sourceKernel.o
+t1291021932
+s4700
+
+N/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/untitled.o
+t2
+s0
+
+N/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/δοκιμές.LinkFileList
+c000000004CF3EB4700000000000002FF
+t1291053895
+s767
+
+N/Users/alex/Documents/code/opencl/γράφοι/centality.c
+c000000004CF3EACC000000000000011B
+t1291053772
+s283
+i<stdlib.h>
+i"degree.h"
+i"orders.h"
+i"node.h"
+
+N/Users/alex/Documents/code/opencl/γράφοι/centrality.c
+c000000004CF417F900000000000001BF
+t1291065337
+s447
+i<stdio.h>
+i"centrality.h"
+i"orders.h"
+i"node.h"
+
+N/Users/alex/Documents/code/opencl/γράφοι/centrality.h
+c000000004CF3F10D000000000000013D
+t1291055373
+s317
+i"node.h"
+
+N/Users/alex/Documents/code/opencl/γράφοι/clBasic.c
+c000000004CF3237700000000000010F1
+t1291002743
+s4337
+i<OpenCL/OpenCL.h>
+i<stdio.h>
+i<stdlib.h>
+i"clBasic.h"
+i"orders.h"
+
+N/Users/alex/Documents/code/opencl/γράφοι/clBasic.h
+c000000004CF3239000000000000002A9
+t1291002768
+s681
+
+N/Users/alex/Documents/code/opencl/γράφοι/degree.c
+c000000004CF3EACC000000000000011B
+t1291053772
+s283
+i<stdlib.h>
+i"degree.h"
+i"orders.h"
+i"node.h"
+
+N/Users/alex/Documents/code/opencl/γράφοι/degree.h
+c000000004CF3EA8000000000000000EE
+t1291053696
+s238
+
+N/Users/alex/Documents/code/opencl/γράφοι/kernel.c
+c000000004CF36F3C000000000000003E
+t1291022140
+s62
+
+N/Users/alex/Documents/code/opencl/γράφοι/limits.c
+c000000004CF3F14900000000000005FB
+t1291055433
+s1531
+i<sys/resource.h>
+i<stdio.h>
+i<stdlib.h>
+i<errno.h>
+i<string.h>
+i"limits.h"
+i"node.h"
+i"orders.h"
+
+N/Users/alex/Documents/code/opencl/γράφοι/limits.h
+c000000004CF3F146000000000000015C
+t1291055430
+s348
+
+N/Users/alex/Documents/code/opencl/γράφοι/loadNGCE.c
+c000000004CF3F1540000000000000C1D
+t1291055444
+s3101
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<errno.h>
+i"loadNGCE.h"
+i"node.h"
+i"orders.h"
+i"limits.h"
+
+N/Users/alex/Documents/code/opencl/γράφοι/loadNGCE.h
+c000000004CF3E993000000000000010B
+t1291053459
+s267
+
+N/Users/alex/Documents/code/opencl/γράφοι/main.c
+c000000004CF3F58F00000000000005B2
+t1291056527
+s1458
+i<stdlib.h>
+i<stdio.h>
+i<OpenCL/OpenCL.h>
+i"node.h"
+i"loadNGCE.h"
+i"limits.h"
+i"orders.h"
+i"clBasic.h"
+i"sourceKernel.h"
+i"centrality.h"
+
+N/Users/alex/Documents/code/opencl/γράφοι/node.h
+c000000004CF3E95B00000000000001B0
+t1291053403
+s432
+
+N/Users/alex/Documents/code/opencl/γράφοι/orders.h
+c000000004CF3044A00000000000000C6
+t1290994762
+s198
+
+N/Users/alex/Documents/code/opencl/γράφοι/sourceKernel.c
+c000000004CF36E6C00000000000004A7
+t1291021932
+s1191
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<errno.h>
+i"orders.h"
+i"sourceKernel.h"
+
+N/Users/alex/Documents/code/opencl/γράφοι/sourceKernel.h
+c000000004CF316AA00000000000000F6
+t1290999466
+s246
+
+N/Users/alex/Documents/code/opencl/γράφοι/untitled.c
+c000000004CF3244200000000000000B0
+t1291002946
+s176
+i"untitled.h"
+
+N/Users/alex/Documents/code/opencl/γράφοι/untitled.h
+c000000004CF324420000000000000099
+t1291002946
+s153
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/Debug/δοκιμές
+t1291000696
+s20656
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/clBasic.o
+t1290999957
+s8652
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/cl_init.o
+t1290990101
+s1532
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/degree.o
+t1290983053
+s1532
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/kernel.o
+t1291000483
+s2308
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/limits.o
+t1290995959
+s5156
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/loadNGCE.o
+t1291000013
+s7480
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o
+t1290720386
+s4240
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/node.o
+t2
+s0
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/sourceKernel.o
+t1291000252
+s4716
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/δοκιμές.LinkFileList
+c000000004CF275D8000000000000007E
+t1290958296
+s126
+
+N/Users/alex/Documents/code/opencl/δοκιμές/clBasic.c
+c000000004CF3189500000000000010CE
+t1290999957
+s4302
+i<OpenCL/OpenCL.h>
+i<stdio.h>
+i<stdlib.h>
+i"clBasic.h"
+i"orders.h"
+
+N/Users/alex/Documents/code/opencl/δοκιμές/clBasic.h
+c000000004CF3152C0000000000000219
+t1290999084
+s537
+
+N/Users/alex/Documents/code/opencl/δοκιμές/cl_init.c
+c000000004CF2F21500000000000000AD
+t1290990101
+s173
+i"cl_init.h"
+i"orders.h"
+
+N/Users/alex/Documents/code/opencl/δοκιμές/cl_init.h
+c000000004CF2D97A0000000000000083
+t1290983802
+s131
+
+N/Users/alex/Documents/code/opencl/δοκιμές/degree.c
+c000000004CF2D6340000000000000097
+t1290982964
+s151
+i"degree.h"
+
+N/Users/alex/Documents/code/opencl/δοκιμές/degree.h
+c000000004CF2D6360000000000000082
+t1290982966
+s130
+
+N/Users/alex/Documents/code/opencl/δοκιμές/kernel.c
+c000000004CF31AA3000000000000003A
+t1291000483
+s58
+
+N/Users/alex/Documents/code/opencl/δοκιμές/limits.c
+c000000004CF308520000000000000603
+t1290995794
+s1539
+i<sys/resource.h>
+i<stdio.h>
+i<stdlib.h>
+i<errno.h>
+i<string.h>
+i"limits.h"
+i"node.h"
+i"orders.h"
+
+N/Users/alex/Documents/code/opencl/δοκιμές/limits.h
+c000000004CF304670000000000000100
+t1290994791
+s256
+
+N/Users/alex/Documents/code/opencl/δοκιμές/loadKernel.h
+c000000004CD6FAA200000000000000E2
+t1289157282
+s226
+
+N/Users/alex/Documents/code/opencl/δοκιμές/loadNGCE.c
+c000000004CF318B30000000000000C04
+t1290999987
+s3076
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<errno.h>
+i"loadNGCE.h"
+i"node.h"
+i"orders.h"
+i"limits.h"
+
+N/Users/alex/Documents/code/opencl/δοκιμές/loadNGCE.h
+c000000004CF318BC00000000000000F0
+t1290999996
+s240
+
+N/Users/alex/Documents/code/opencl/δοκιμές/main.c
+c000000004CF31B7200000000000004B6
+t1291000690
+s1206
+i<stdlib.h>
+i<stdio.h>
+i<OpenCL/OpenCL.h>
+i"node.h"
+i"loadNGCE.h"
+i"limits.h"
+i"orders.h"
+i"clBasic.h"
+i"sourceKernel.h"
+
+N/Users/alex/Documents/code/opencl/δοκιμές/main.cpp
+c000000004CEEE7D800000000000001D3
+t1290725336
+s467
+i<cstdio>
+i<cstdlib>
+i<OpenCL/opencl.h>
+
+N/Users/alex/Documents/code/opencl/δοκιμές/node.c
+c000000004CF2755800000000000000AA
+t1290958168
+s170
+
+N/Users/alex/Documents/code/opencl/δοκιμές/node.h
+c000000004CF308F50000000000000126
+t1290995957
+s294
+
+N/Users/alex/Documents/code/opencl/δοκιμές/orders.h
+c000000004CF3044A00000000000000C6
+t1290994762
+s198
+
+N/Users/alex/Documents/code/opencl/δοκιμές/sourceKernel.c
+c000000004CF319BC0000000000000355
+t1291000252
+s853
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<errno.h>
+i"orders.h"
+i"sourceKernel.h"
+
+N/Users/alex/Documents/code/opencl/δοκιμές/sourceKernel.h
+c000000004CF316AA00000000000000F6
+t1290999466
+s246
+
+N/Users/alex/Documents/code/opencl/δοκιμές/switches.h
+c000000004CF2D5150000000000000091
+t1290982677
+s145
+
+N/Users/alex/Documents/code/γράφοι-opencl/betweness.c
+c000000004CFE96530000000000000FEE
+t1291753043
+s4078
+i<stdio.h>
+i<stdlib.h>
+i"betweness.h"
+i"orders.h"
+i"node.h"
+
+N/Users/alex/Documents/code/γράφοι-opencl/betweness.h
+c000000004CFE92FC0000000000000311
+t1291752188
+s785
+i"node.h"
+
+N/Users/alex/Documents/code/γράφοι-opencl/bfs.c
+c000000004CF82AA200000000000001BD
+t1291332258
+s445
+i<stdio.h>
+i"bfs.h"
+i"orders.h"
+i"node.h"
+
+N/Users/alex/Documents/code/γράφοι-opencl/bfs.h
+c000000004CF82F9F0000000000000288
+t1291333535
+s648
+i"node.h"
+
+N/Users/alex/Documents/code/γράφοι-opencl/build/Debug/δοκιμές
+t1291750927
+s21528
+
+N/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/betweness.o
+t1291750851
+s6360
+
+N/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/bfs.o
+t1291333536
+s3516
+
+N/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/centrality.o
+t1291277876
+s3388
+
+N/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/clBasic.o
+t1291278488
+s8712
+
+N/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/limits.o
+t1291055433
+s5172
+
+N/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/loadNGCE.o
+t1291750850
+s7620
+
+N/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o
+t1291750851
+s7280
+
+N/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/sourceKernel.o
+t1291302531
+s4756
+
+N/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/timing.o
+t1291749642
+s3540
+
+N/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/δοκιμές.LinkFileList
+c000000004CF7B67800000000000002F8
+t1291302520
+s760
+
+N/Users/alex/Documents/code/γράφοι-opencl/centrality.c
+c000000004CF417F900000000000001BF
+t1291065337
+s447
+i<stdio.h>
+i"centrality.h"
+i"orders.h"
+i"node.h"
+
+N/Users/alex/Documents/code/γράφοι-opencl/centrality.h
+c000000004CF3F10D000000000000013D
+t1291055373
+s317
+i"node.h"
+
+N/Users/alex/Documents/code/γράφοι-opencl/centrality/bfs.c
+c000000004CF7B7AA00000000000001B5
+t1291302826
+s437
+i<stdio.h>
+i"bfs.h"
+i"orders.h"
+i"node.h"
+
+N/Users/alex/Documents/code/γράφοι-opencl/centrality/bfs.h
+c000000004CF7B7C4000000000000013E
+t1291302852
+s318
+i"node.h"
+
+N/Users/alex/Documents/code/γράφοι-opencl/clBasic.c
+c000000004CFE97480000000000001654
+t1291753288
+s5716
+i<OpenCL/OpenCL.h>
+i<stdio.h>
+i<stdlib.h>
+i"clBasic.h"
+i"orders.h"
+
+N/Users/alex/Documents/code/γράφοι-opencl/clBasic.h
+c000000004CFD482A00000000000002BF
+t1291667498
+s703
+
+N/Users/alex/Documents/code/γράφοι-opencl/limits.c
+c000000004CF8032800000000000007BA
+t1291322152
+s1978
+i<sys/resource.h>
+i<stdio.h>
+i<stdlib.h>
+i<errno.h>
+i<string.h>
+i"limits.h"
+i"node.h"
+i"orders.h"
+
+N/Users/alex/Documents/code/γράφοι-opencl/limits.h
+c000000004CF7EAF20000000000000152
+t1291315954
+s338
+
+N/Users/alex/Documents/code/γράφοι-opencl/loadNGCE.c
+c000000004CFE9A740000000000000DE7
+t1291754100
+s3559
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<errno.h>
+i"loadNGCE.h"
+i"node.h"
+i"orders.h"
+i"limits.h"
+
+N/Users/alex/Documents/code/γράφοι-opencl/loadNGCE.h
+c000000004CF800680000000000000120
+t1291321448
+s288
+i"node.h"
+
+N/Users/alex/Documents/code/γράφοι-opencl/main.c
+c000000004CFE8D8E0000000000000A96
+t1291750798
+s2710
+i<stdlib.h>
+i<stdio.h>
+i<OpenCL/OpenCL.h>
+i"node.h"
+i"loadNGCE.h"
+i"limits.h"
+i"orders.h"
+i"clBasic.h"
+i"sourceKernel.h"
+i"betweness.h"
+i"timing.h"
+
+N/Users/alex/Documents/code/γράφοι-opencl/node.h
+c000000004CFE96B00000000000000307
+t1291753136
+s775
+
+N/Users/alex/Documents/code/γράφοι-opencl/orders.h
+c000000004CFE97AE00000000000005A9
+t1291753390
+s1449
+
+N/Users/alex/Documents/code/γράφοι-opencl/sourceKernel.c
+c000000004CFE96F100000000000005B4
+t1291753201
+s1460
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<errno.h>
+i"orders.h"
+i"sourceKernel.h"
+
+N/Users/alex/Documents/code/γράφοι-opencl/sourceKernel.h
+c000000004CF7F9600000000000000100
+t1291319648
+s256
+
+N/Users/alex/Documents/code/γράφοι-opencl/timing.c
+c000000004CFE97E800000000000001FE
+t1291753448
+s510
+i<stdio.h>
+i<time.h>
+i"timing.h"
+
+N/Users/alex/Documents/code/γράφοι-opencl/timing.h
+c000000004CFE886700000000000000DF
+t1291749479
+s223
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies320598001#320598001#0(0"0(0#1#0"9007693182795888#0"0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/betweeness.o /Users/alex/Documents/code/graphs/betweeness.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/betweeness.o /Users/alex/Documents/code/graphs/betweeness.c normal x86_64 c com.apple.compilers.gcc.4_2
+s313448618.425626
+e313448618.426617
+r1
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/betweeness.o
+x/Users/alex/Documents/code/graphs/betweeness.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/alex/Documents/code/graphs/betweeness.c313448618#313448618#0(195"/Users/alex/Documents/code/graphs/betweeness.c: In function 'getNextFromFIFO':/Users/alex/Documents/code/graphs/betweeness.c:32: warning: assignment discards qualifiers from pointer target type1(22@55"Assignment discards qualifiers from pointer target type313448618#79#116#0(6@46"/Users/alex/Documents/code/graphs/betweeness.c313448617#32#0#32#0#55"assignment discards qualifiers from pointer target type0(0#0#46"/Users/alex/Documents/code/graphs/betweeness.c8618071968#1319"    cd /Users/alex/Documents/code/graphs    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/graphs/build/Debug -I/Users/alex/Documents/code/graphs/build/Debug/include -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/graphs/betweeness.c -o /Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/betweeness.o0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/betweness.o /Users/alex/Documents/code/graphs/betweness.c normal x86_64 c com.apple.compilers.gcc.4_2
+s313447652.249322
+e313447652.250242
+r1
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/betweness.o
+x/Users/alex/Documents/code/graphs/betweness.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/alex/Documents/code/graphs/betweness.c313447652#313447652#0(193"/Users/alex/Documents/code/graphs/betweness.c: In function 'getNextFromFIFO':/Users/alex/Documents/code/graphs/betweness.c:30: warning: assignment discards qualifiers from pointer target type1(22@55"Assignment discards qualifiers from pointer target type313447652#78#115#0(6@45"/Users/alex/Documents/code/graphs/betweness.c313447648#30#0#30#0#55"assignment discards qualifiers from pointer target type0(0#0#45"/Users/alex/Documents/code/graphs/betweness.c8615530912#1317"    cd /Users/alex/Documents/code/graphs    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/graphs/build/Debug -I/Users/alex/Documents/code/graphs/build/Debug/include -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/graphs/betweness.c -o /Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/betweness.o0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/betweness.o /Users/alex/Documents/code/γράφοι-opencl/betweness.c normal x86_64 c com.apple.compilers.gcc.4_2
+s313414195.581332
+e313414195.634095
+r1
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/betweness.o
+x/Users/alex/Documents/code/γράφοι-opencl/betweness.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Documents/code/γράφοι-opencl/betweness.c: In function 'getNextFromFIFO':
+o/Users/alex/Documents/code/γράφοι-opencl/betweness.c:30: warning: assignment discards qualifiers from pointer target type
+lSLF07#2@68"Compile /Users/alex/Documents/code/γράφοι-opencl/betweness.c313414195#313414195#0(223"/Users/alex/Documents/code/γράφοι-opencl/betweness.c: In function 'getNextFromFIFO':/Users/alex/Documents/code/γράφοι-opencl/betweness.c:30: warning: assignment discards qualifiers from pointer target type1(22@55"Assignment discards qualifiers from pointer target type313414195#86#123#0(6@60"/Users/alex/Documents/code/γράφοι-opencl/betweness.c313370530#30#0#30#0#55"assignment discards qualifiers from pointer target type0(0#0#60"/Users/alex/Documents/code/γράφοι-opencl/betweness.c8638359968#1482"    cd /Users/alex/Documents/code/γράφοι-opencl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/γράφοι-opencl/build/Debug -I/Users/alex/Documents/code/γράφοι-opencl/build/Debug/include -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/γράφοι-opencl/betweness.c -o /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/betweness.o0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/bfs.o /Users/alex/Documents/code/γράφοι-opencl/bfs.c normal x86_64 c com.apple.compilers.gcc.4_2
+s313026336.598545
+e313026336.644253
+r1
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/bfs.o
+x/Users/alex/Documents/code/γράφοι-opencl/bfs.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/alex/Documents/code/γράφοι-opencl/bfs.c313026336#313026336#0(0"0(0#0#54"/Users/alex/Documents/code/γράφοι-opencl/bfs.c8611937888#1470"    cd /Users/alex/Documents/code/γράφοι-opencl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/γράφοι-opencl/build/Debug -I/Users/alex/Documents/code/γράφοι-opencl/build/Debug/include -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/γράφοι-opencl/bfs.c -o /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/bfs.o0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/bfs.o /Users/alex/Documents/code/γράφοι-opencl/centrality/bfs.c normal x86_64 c com.apple.compilers.gcc.4_2
+s312995653.469827
+e312995653.506925
+r1
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/bfs.o
+x/Users/alex/Documents/code/γράφοι-opencl/centrality/bfs.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/alex/Documents/code/γράφοι-opencl/centrality/bfs.c312995653#312995653#0(0"0(0#0#65"/Users/alex/Documents/code/γράφοι-opencl/centrality/bfs.c8603473024#1481"    cd /Users/alex/Documents/code/γράφοι-opencl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/γράφοι-opencl/build/Debug -I/Users/alex/Documents/code/γράφοι-opencl/build/Debug/include -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/γράφοι-opencl/centrality/bfs.c -o /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/bfs.o0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/centality.o /Users/alex/Documents/code/opencl/γράφοι/centality.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/centrality.o /Users/alex/Documents/code/opencl/γράφοι/centrality.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/centrality.o /Users/alex/Documents/code/γράφοι-opencl/centrality.c normal x86_64 c com.apple.compilers.gcc.4_2
+s312970676.904019
+e312970676.986477
+r1
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/centrality.o
+x/Users/alex/Documents/code/γράφοι-opencl/centrality.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/alex/Documents/code/γράφοι-opencl/centrality.c312970676#312970676#0(0"0(0#0#61"/Users/alex/Documents/code/γράφοι-opencl/centrality.c8607138880#1484"    cd /Users/alex/Documents/code/γράφοι-opencl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/γράφοι-opencl/build/Debug -I/Users/alex/Documents/code/γράφοι-opencl/build/Debug/include -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/γράφοι-opencl/centrality.c -o /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/centrality.o0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/clBasic.o /Users/alex/Documents/code/graphs/clBasic.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/clBasic.o /Users/alex/Documents/code/graphs/clBasic.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/clBasic.o /Users/alex/Documents/code/opencl/γράφοι/clBasic.c normal x86_64 c com.apple.compilers.gcc.4_2
+s312695819.467925
+e312695819.528488
+r1
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/clBasic.o
+x/Users/alex/Documents/code/opencl/γράφοι/clBasic.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Documents/code/opencl/γράφοι/clBasic.c: In function 'availClDevices':
+o/Users/alex/Documents/code/opencl/γράφοι/clBasic.c:31: warning: pointer targets in passing argument 5 of 'clGetDeviceIDs' differ in signedness
+lSLF07#2@66"Compile /Users/alex/Documents/code/opencl/γράφοι/clBasic.c312695819#312695819#0(241"/Users/alex/Documents/code/opencl/γράφοι/clBasic.c: In function 'availClDevices':/Users/alex/Documents/code/opencl/γράφοι/clBasic.c:31: warning: pointer targets in passing argument 5 of 'clGetDeviceIDs' differ in signedness1(22@78"Pointer targets in passing argument 5 of 'clGetDeviceIDs' differ in signedness312695819#83#144#0(6@58"/Users/alex/Documents/code/opencl/γράφοι/clBasic.c312695543#31#0#31#0#65"pointer targets in passing argument * of '*' differ in signedness0(0#0#58"/Users/alex/Documents/code/opencl/γράφοι/clBasic.c8618633440#1478"    cd /Users/alex/Documents/code/opencl/γράφοι    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/opencl/γράφοι/build/Debug -I/Users/alex/Documents/code/opencl/γράφοι/build/Debug/include -I/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/opencl/γράφοι/clBasic.c -o /Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/clBasic.o0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/clBasic.o /Users/alex/Documents/code/opencl/δοκιμές/clBasic.c normal x86_64 c com.apple.compilers.gcc.4_2
+s312692813.751647
+e312692813.759921
+r1
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/clBasic.o
+x/Users/alex/Documents/code/opencl/δοκιμές/clBasic.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/alex/Documents/code/opencl/δοκιμές/clBasic.c312692813#312692813#0(245"/Users/alex/Documents/code/opencl/δοκιμές/clBasic.c: In function 'availClDevices':/Users/alex/Documents/code/opencl/δοκιμές/clBasic.c:31: warning: pointer targets in passing argument 5 of 'clGetDeviceIDs' differ in signedness1(22@78"Pointer targets in passing argument 5 of 'clGetDeviceIDs' differ in signedness312692813#84#145#0(6@60"/Users/alex/Documents/code/opencl/δοκιμές/clBasic.c312692757#31#0#31#0#65"pointer targets in passing argument * of '*' differ in signedness0(0#0#60"/Users/alex/Documents/code/opencl/δοκιμές/clBasic.c8629329952#1500"    cd /Users/alex/Documents/code/opencl/δοκιμές    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/opencl/δοκιμές/build/Debug -I/Users/alex/Documents/code/opencl/δοκιμές/build/Debug/include -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/opencl/δοκιμές/clBasic.c -o /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/clBasic.o0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/clBasic.o /Users/alex/Documents/code/γράφοι-opencl/clBasic.c normal x86_64 c com.apple.compilers.gcc.4_2
+s312971336.496084
+e312971336.496989
+r1
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/clBasic.o
+x/Users/alex/Documents/code/γράφοι-opencl/clBasic.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/alex/Documents/code/γράφοι-opencl/clBasic.c312971336#312971336#0(241"/Users/alex/Documents/code/γράφοι-opencl/clBasic.c: In function 'availClDevices':/Users/alex/Documents/code/γράφοι-opencl/clBasic.c:31: warning: pointer targets in passing argument 5 of 'clGetDeviceIDs' differ in signedness1(22@78"Pointer targets in passing argument 5 of 'clGetDeviceIDs' differ in signedness312971336#83#144#0(6@58"/Users/alex/Documents/code/γράφοι-opencl/clBasic.c312971288#31#0#31#0#65"pointer targets in passing argument * of '*' differ in signedness0(0#0#58"/Users/alex/Documents/code/γράφοι-opencl/clBasic.c8619902016#1478"    cd /Users/alex/Documents/code/γράφοι-opencl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/γράφοι-opencl/build/Debug -I/Users/alex/Documents/code/γράφοι-opencl/build/Debug/include -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/γράφοι-opencl/clBasic.c -o /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/clBasic.o0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/cl_init.o /Users/alex/Documents/code/opencl/δοκιμές/cl_init.c normal x86_64 c com.apple.compilers.gcc.4_2
+s312683294.099488
+e312683294.133213
+r1
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/cl_init.o
+x/Users/alex/Documents/code/opencl/δοκιμές/cl_init.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/alex/Documents/code/opencl/δοκιμές/cl_init.c312683294#312683294#0(0"0(0#0#60"/Users/alex/Documents/code/opencl/δοκιμές/cl_init.c8622507840#1500"    cd /Users/alex/Documents/code/opencl/δοκιμές    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/opencl/δοκιμές/build/Debug -I/Users/alex/Documents/code/opencl/δοκιμές/build/Debug/include -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/opencl/δοκιμές/cl_init.c -o /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/cl_init.o0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/degree.o /Users/alex/Documents/code/opencl/γράφοι/degree.c normal x86_64 c com.apple.compilers.gcc.4_2
+s312746573.873045
+e312746573.878074
+r1
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/degree.o
+x/Users/alex/Documents/code/opencl/γράφοι/degree.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/alex/Documents/code/opencl/γράφοι/degree.c312746573#312746573#0(181"/Users/alex/Documents/code/opencl/γράφοι/degree.c: In function 'degree':/Users/alex/Documents/code/opencl/γράφοι/degree.c:18: warning: unused variable 'totalNodes'1(22@28"Unused variable 'totalNodes'312746573#74#93#0(6@57"/Users/alex/Documents/code/opencl/γράφοι/degree.c312746572#18#0#18#0#19"unused variable '*'0(0#0#57"/Users/alex/Documents/code/opencl/γράφοι/degree.c8613656736#1476"    cd /Users/alex/Documents/code/opencl/γράφοι    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/opencl/γράφοι/build/Debug -I/Users/alex/Documents/code/opencl/γράφοι/build/Debug/include -I/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/opencl/γράφοι/degree.c -o /Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/degree.o0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/degree.o /Users/alex/Documents/code/opencl/δοκιμές/degree.c normal x86_64 c com.apple.compilers.gcc.4_2
+s312675853.257455
+e312675853.286602
+r1
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/degree.o
+x/Users/alex/Documents/code/opencl/δοκιμές/degree.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/alex/Documents/code/opencl/δοκιμές/degree.c312675853#312675853#0(0"0(0#0#59"/Users/alex/Documents/code/opencl/δοκιμές/degree.c8617930880#1498"    cd /Users/alex/Documents/code/opencl/δοκιμές    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/opencl/δοκιμές/build/Debug -I/Users/alex/Documents/code/opencl/δοκιμές/build/Debug/include -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/opencl/δοκιμές/degree.c -o /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/degree.o0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/kernel.o /Users/alex/Documents/code/opencl/γράφοι/kernel.c normal x86_64 c com.apple.compilers.gcc.4_2
+s312714942.237228
+e312714942.238169
+r0
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/kernel.o
+x/Users/alex/Documents/code/opencl/γράφοι/kernel.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/alex/Documents/code/opencl/γράφοι/kernel.c312714942#312714942#0(132"/Users/alex/Documents/code/opencl/γράφοι/kernel.c:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'goofy'1(4@63"Expected '=', ',', ';', 'asm' or '__attribute__' before 'goofy'312714942#0#125#0(6@57"/Users/alex/Documents/code/opencl/γράφοι/kernel.c312714940#1#0#1#0#19"expected * before *0(0#0#57"/Users/alex/Documents/code/opencl/γράφοι/kernel.c8614143648#1476"    cd /Users/alex/Documents/code/opencl/γράφοι    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/opencl/γράφοι/build/Debug -I/Users/alex/Documents/code/opencl/γράφοι/build/Debug/include -I/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/opencl/γράφοι/kernel.c -o /Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/kernel.o1#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/kernel.o /Users/alex/Documents/code/opencl/δοκιμές/kernel.c normal x86_64 c com.apple.compilers.gcc.4_2
+s312693285.261200
+e312693285.262126
+r1
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/kernel.o
+x/Users/alex/Documents/code/opencl/δοκιμές/kernel.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/alex/Documents/code/opencl/δοκιμές/kernel.c312693285#312693285#0(0"0(0#0#59"/Users/alex/Documents/code/opencl/δοκιμές/kernel.c8629271360#1498"    cd /Users/alex/Documents/code/opencl/δοκιμές    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/opencl/δοκιμές/build/Debug -I/Users/alex/Documents/code/opencl/δοκιμές/build/Debug/include -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/opencl/δοκιμές/kernel.c -o /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/kernel.o0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/limits.o /Users/alex/Documents/code/graphs/limits.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/limits.o /Users/alex/Documents/code/graphs/limits.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/limits.o /Users/alex/Documents/code/opencl/γράφοι/limits.c normal x86_64 c com.apple.compilers.gcc.4_2
+s312695819.462221
+e312695819.512702
+r1
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/limits.o
+x/Users/alex/Documents/code/opencl/γράφοι/limits.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/alex/Documents/code/opencl/γράφοι/limits.c312695819#312695819#0(0"0(0#0#57"/Users/alex/Documents/code/opencl/γράφοι/limits.c8619708224#1476"    cd /Users/alex/Documents/code/opencl/γράφοι    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/opencl/γράφοι/build/Debug -I/Users/alex/Documents/code/opencl/γράφοι/build/Debug/include -I/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/opencl/γράφοι/limits.c -o /Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/limits.o0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/limits.o /Users/alex/Documents/code/opencl/δοκιμές/limits.c normal x86_64 c com.apple.compilers.gcc.4_2
+s312688759.131159
+e312688759.162855
+r1
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/limits.o
+x/Users/alex/Documents/code/opencl/δοκιμές/limits.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/alex/Documents/code/opencl/δοκιμές/limits.c312688759#312688759#0(0"0(0#0#59"/Users/alex/Documents/code/opencl/δοκιμές/limits.c8629615328#1498"    cd /Users/alex/Documents/code/opencl/δοκιμές    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/opencl/δοκιμές/build/Debug -I/Users/alex/Documents/code/opencl/δοκιμές/build/Debug/include -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/opencl/δοκιμές/limits.c -o /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/limits.o0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/limits.o /Users/alex/Documents/code/γράφοι-opencl/limits.c normal x86_64 c com.apple.compilers.gcc.4_2
+s313443651.739546
+e313443651.793318
+r1
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/limits.o
+x/Users/alex/Documents/code/γράφοι-opencl/limits.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/alex/Documents/code/γράφοι-opencl/limits.c313443651#313443651#0(0"0(0#0#57"/Users/alex/Documents/code/γράφοι-opencl/limits.c8615714688#1476"    cd /Users/alex/Documents/code/γράφοι-opencl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/γράφοι-opencl/build/Debug -I/Users/alex/Documents/code/γράφοι-opencl/build/Debug/include -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/γράφοι-opencl/limits.c -o /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/limits.o0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/loadNGCE.o /Users/alex/Documents/code/graphs/loadNGCE.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/loadNGCE.o /Users/alex/Documents/code/graphs/loadNGCE.c normal x86_64 c com.apple.compilers.gcc.4_2
+s313448600.685242
+e313448600.746731
+r1
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/loadNGCE.o
+x/Users/alex/Documents/code/graphs/loadNGCE.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/alex/Documents/code/graphs/loadNGCE.c313448600#313448600#0(0"0(0#0#44"/Users/alex/Documents/code/graphs/loadNGCE.c8618514336#1315"    cd /Users/alex/Documents/code/graphs    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/graphs/build/Debug -I/Users/alex/Documents/code/graphs/build/Debug/include -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/graphs/loadNGCE.c -o /Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/loadNGCE.o0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/loadNGCE.o /Users/alex/Documents/code/opencl/γράφοι/loadNGCE.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/loadNGCE.o /Users/alex/Documents/code/opencl/δοκιμές/loadNGCE.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/loadNGCE.o /Users/alex/Documents/code/γράφοι-opencl/loadNGCE.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o /Users/alex/Documents/code/graphs/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o /Users/alex/Documents/code/graphs/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o /Users/alex/Documents/code/opencl/γράφοι/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o /Users/alex/Documents/code/opencl/δοκιμές/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+s312693496.855940
+e312693496.857112
+r1
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o
+x/Users/alex/Documents/code/opencl/δοκιμές/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/alex/Documents/code/opencl/δοκιμές/main.c312693496#312693496#0(826"/Users/alex/Documents/code/opencl/δοκιμές/main.c: In function 'main':/Users/alex/Documents/code/opencl/δοκιμές/main.c:35: warning: format '%d' expects type 'int', but argument 7 has type 'cl_ulong'/Users/alex/Documents/code/opencl/δοκιμές/main.c:35: warning: format '%d' expects type 'int', but argument 8 has type 'size_t'/Users/alex/Documents/code/opencl/δοκιμές/main.c:35: warning: format '%d' expects type 'int', but argument 10 has type 'cl_ulong'/Users/alex/Documents/code/opencl/δοκιμές/main.c:35: warning: format '%d' expects type 'int', but argument 11 has type 'cl_ulong'/Users/alex/Documents/code/opencl/δοκιμές/main.c:28: warning: unused variable 'graph'/Users/alex/Documents/code/opencl/δοκιμές/main.c:27: warning: unused variable 'totalNodes'6(22@66"Format '%d' expects type 'int', but argument 7 has type 'cl_ulong'312693496#71#130#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c312693490#35#0#35#0#56"format '*' expects type '*', but argument * has type '*'0(22@64"Format '%d' expects type 'int', but argument 8 has type 'size_t'312693496#201#128#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c312693490#35#0#35#0#56"format '*' expects type '*', but argument * has type '*'0(22@67"Format '%d' expects type 'int', but argument 10 has type 'cl_ulong'312693496#329#131#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c312693490#35#0#35#0#56"format '*' expects type '*', but argument * has type '*'0(22@67"Format '%d' expects type 'int', but argument 11 has type 'cl_ulong'312693496#460#131#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c312693490#35#0#35#0#56"format '*' expects type '*', but argument * has type '*'0(22@23"Unused variable 'graph'312693496#591#87#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c312693490#28#0#28#0#19"unused variable '*'0(22@28"Unused variable 'totalNodes'312693496#678#92#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c312693490#27#0#27#0#19"unused variable '*'0(0#0#57"/Users/alex/Documents/code/opencl/δοκιμές/main.c8628404448#1494"    cd /Users/alex/Documents/code/opencl/δοκιμές    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/opencl/δοκιμές/build/Debug -I/Users/alex/Documents/code/opencl/δοκιμές/build/Debug/include -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/opencl/δοκιμές/main.c -o /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o /Users/alex/Documents/code/opencl/δοκιμές/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s312418138.017308
+e312418138.018316
+r1
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o
+x/Users/alex/Documents/code/opencl/δοκιμές/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/alex/Documents/code/opencl/δοκιμές/main.cpp312418138#312418138#0(0"0(0#0#59"/Users/alex/Documents/code/opencl/δοκιμές/main.cpp8618572736#1515"    cd /Users/alex/Documents/code/opencl/δοκιμές    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/opencl/δοκιμές/build/Debug -I/Users/alex/Documents/code/opencl/δοκιμές/build/Debug/include -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/opencl/δοκιμές/main.cpp -o /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o /Users/alex/Documents/code/γράφοι-opencl/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+s313443651.737738
+e313443651.807812
+r1
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o
+x/Users/alex/Documents/code/γράφοι-opencl/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/alex/Documents/code/γράφοι-opencl/main.c313443651#313443651#0(0"0(0#0#55"/Users/alex/Documents/code/γράφοι-opencl/main.c8615941952#1472"    cd /Users/alex/Documents/code/γράφοι-opencl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/γράφοι-opencl/build/Debug -I/Users/alex/Documents/code/γράφοι-opencl/build/Debug/include -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/γράφοι-opencl/main.c -o /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/node.o /Users/alex/Documents/code/opencl/δοκιμές/node.c normal x86_64 c com.apple.compilers.gcc.4_2
+s312413214.659733
+e312413214.705069
+r0
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/node.o
+x/Users/alex/Documents/code/opencl/δοκιμές/node.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/alex/Documents/code/opencl/δοκιμές/node.c:10:
+o/Users/alex/Documents/code/opencl/δοκιμές/node.h:15: error: expected specifier-qualifier-list before 'node'
+o/Users/alex/Documents/code/opencl/δοκιμές/node.c:11: error: expected identifier or '(' at end of input
+lSLF07#2@65"Compile /Users/alex/Documents/code/opencl/δοκιμές/node.c312413214#312413214#0(313"In file included from /Users/alex/Documents/code/opencl/δοκιμές/node.c:10:/Users/alex/Documents/code/opencl/δοκιμές/node.h:15: error: expected specifier-qualifier-list before 'node'/Users/alex/Documents/code/opencl/δοκιμές/node.c:11: error: expected identifier or '(' at end of input2(4@47"Expected specifier-qualifier-list before 'node'312413214#76#109#2(7@79"In file included from /Users/alex/Documents/code/opencl/δοκιμές/node.c312413214#18446744073709551615#0#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/node.c312413058#10#0#10#0#0"0(13@108"Expected specifier-qualifier-list before 'node' in /Users/alex/Documents/code/opencl/δοκιμές/node.h312413214#18446744073709551615#0#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/node.h312413212#15#0#15#0#0"0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/node.h312413212#15#0#15#0#19"expected * before *0(4@42"Expected identifier or '(' at end of input312413214#185#104#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/node.c312413058#11#0#11#0#0"0(0#0#57"/Users/alex/Documents/code/opencl/δοκιμές/node.c8615381664#1494"    cd /Users/alex/Documents/code/opencl/δοκιμές    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/opencl/δοκιμές/build/Debug -I/Users/alex/Documents/code/opencl/δοκιμές/build/Debug/include -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/opencl/δοκιμές/node.c -o /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/node.o1#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/sourceKernel.o /Users/alex/Documents/code/graphs/sourceKernel.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/sourceKernel.o /Users/alex/Documents/code/graphs/sourceKernel.c normal x86_64 c com.apple.compilers.gcc.4_2
+s313448600.746819
+e313448600.781760
+r1
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/sourceKernel.o
+x/Users/alex/Documents/code/graphs/sourceKernel.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/alex/Documents/code/graphs/sourceKernel.c313448600#313448600#0(0"0(0#0#48"/Users/alex/Documents/code/graphs/sourceKernel.c8617796832#1323"    cd /Users/alex/Documents/code/graphs    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/graphs/build/Debug -I/Users/alex/Documents/code/graphs/build/Debug/include -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/graphs/sourceKernel.c -o /Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/sourceKernel.o0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/sourceKernel.o /Users/alex/Documents/code/opencl/γράφοι/sourceKernel.c normal x86_64 c com.apple.compilers.gcc.4_2
+s312714942.236172
+e312714942.237176
+r1
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/sourceKernel.o
+x/Users/alex/Documents/code/opencl/γράφοι/sourceKernel.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/alex/Documents/code/opencl/γράφοι/sourceKernel.c312714942#312714942#0(0"0(0#0#63"/Users/alex/Documents/code/opencl/γράφοι/sourceKernel.c8614464416#1488"    cd /Users/alex/Documents/code/opencl/γράφοι    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/opencl/γράφοι/build/Debug -I/Users/alex/Documents/code/opencl/γράφοι/build/Debug/include -I/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/opencl/γράφοι/sourceKernel.c -o /Users/alex/Documents/code/opencl/γράφοι/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/sourceKernel.o0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/sourceKernel.o /Users/alex/Documents/code/opencl/δοκιμές/sourceKernel.c normal x86_64 c com.apple.compilers.gcc.4_2
+s312693053.354130
+e312693053.356059
+r1
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/sourceKernel.o
+x/Users/alex/Documents/code/opencl/δοκιμές/sourceKernel.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/alex/Documents/code/opencl/δοκιμές/sourceKernel.c312693053#312693053#0(0"0(0#0#65"/Users/alex/Documents/code/opencl/δοκιμές/sourceKernel.c8621851424#1510"    cd /Users/alex/Documents/code/opencl/δοκιμές    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/opencl/δοκιμές/build/Debug -I/Users/alex/Documents/code/opencl/δοκιμές/build/Debug/include -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/opencl/δοκιμές/sourceKernel.c -o /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/sourceKernel.o0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/sourceKernel.o /Users/alex/Documents/code/γράφοι-opencl/sourceKernel.c normal x86_64 c com.apple.compilers.gcc.4_2
+s312995331.078332
+e312995331.191115
+r1
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/sourceKernel.o
+x/Users/alex/Documents/code/γράφοι-opencl/sourceKernel.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/alex/Documents/code/γράφοι-opencl/sourceKernel.c312995331#312995331#0(0"0(0#0#63"/Users/alex/Documents/code/γράφοι-opencl/sourceKernel.c8599301760#1488"    cd /Users/alex/Documents/code/γράφοι-opencl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/γράφοι-opencl/build/Debug -I/Users/alex/Documents/code/γράφοι-opencl/build/Debug/include -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/γράφοι-opencl/sourceKernel.c -o /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/sourceKernel.o0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/timing.o /Users/alex/Documents/code/graphs/timing.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/timing.o /Users/alex/Documents/code/graphs/timing.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/timing.o /Users/alex/Documents/code/γράφοι-opencl/timing.c normal x86_64 c com.apple.compilers.gcc.4_2
+s313442442.559310
+e313442442.587827
+r1
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/timing.o
+x/Users/alex/Documents/code/γράφοι-opencl/timing.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/alex/Documents/code/γράφοι-opencl/timing.c313442442#313442442#0(0"0(0#0#57"/Users/alex/Documents/code/γράφοι-opencl/timing.c8616331872#1476"    cd /Users/alex/Documents/code/γράφοι-opencl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/γράφοι-opencl/build/Debug -I/Users/alex/Documents/code/γράφοι-opencl/build/Debug/include -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/γράφοι-opencl/timing.c -o /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/timing.o0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/untitled.o /Users/alex/Documents/code/opencl/γράφοι/untitled.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CLd /Users/alex/Documents/code/graphs/build/Debug/δοκιμές normal x86_64
+r0
+
+CLd /Users/alex/Documents/code/graphs/build/Debug/δοκιμές normal x86_64
+s313448618.426729
+e313448618.463184
+r1
+xLd
+x/Users/alex/Documents/code/graphs/build/Debug/δοκιμές
+xnormal
+xx86_64
+lSLF07#2@67"Link /Users/alex/Documents/code/graphs/build/Debug/δοκιμές313448618#313448618#0(0"0(0#0#0"8613256736#517"    cd /Users/alex/Documents/code/graphs    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/alex/Documents/code/graphs/build/Debug -F/Users/alex/Documents/code/graphs/build/Debug -filelist /Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/δοκιμές.LinkFileList -mmacosx-version-min=10.6 -framework OpenCL -o /Users/alex/Documents/code/graphs/build/Debug/δοκιμές0#
+
+CLd /Users/alex/Documents/code/opencl/γράφοι/build/Debug/δοκιμές normal x86_64
+r0
+
+CLd /Users/alex/Documents/code/opencl/δοκιμές/build/Debug/δοκιμές normal x86_64
+s312693496.857521
+e312693496.876630
+r1
+xLd
+x/Users/alex/Documents/code/opencl/δοκιμές/build/Debug/δοκιμές
+xnormal
+xx86_64
+lSLF07#2@84"Link /Users/alex/Documents/code/opencl/δοκιμές/build/Debug/δοκιμές312693496#312693496#0(0"0(0#0#0"8628051936#602"    cd /Users/alex/Documents/code/opencl/δοκιμές    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/alex/Documents/code/opencl/δοκιμές/build/Debug -F/Users/alex/Documents/code/opencl/δοκιμές/build/Debug -filelist /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/δοκιμές.LinkFileList -mmacosx-version-min=10.6 -framework OpenCL -o /Users/alex/Documents/code/opencl/δοκιμές/build/Debug/δοκιμές0#
+
+CLd /Users/alex/Documents/code/γράφοι-opencl/build/Debug/δοκιμές normal x86_64
+s313443727.331409
+e313443727.364503
+r1
+xLd
+x/Users/alex/Documents/code/γράφοι-opencl/build/Debug/δοκιμές
+xnormal
+xx86_64
+lSLF07#2@82"Link /Users/alex/Documents/code/γράφοι-opencl/build/Debug/δοκιμές313443727#313443727#0(0"0(0#0#0"8606625088#592"    cd /Users/alex/Documents/code/γράφοι-opencl    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/alex/Documents/code/γράφοι-opencl/build/Debug -F/Users/alex/Documents/code/γράφοι-opencl/build/Debug -filelist /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/δοκιμές.LinkFileList -mmacosx-version-min=10.6 -framework OpenCL -o /Users/alex/Documents/code/γράφοι-opencl/build/Debug/δοκιμές0#
+

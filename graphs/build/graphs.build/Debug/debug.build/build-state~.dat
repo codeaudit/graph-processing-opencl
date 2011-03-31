@@ -1,0 +1,328 @@
+Tdebug
+v7
+r0
+t313448688.692359
+cCheck dependencies
+cCompileC build/graphs.build/Debug/debug.build/Objects-normal/x86_64/main.o /Users/alex/Documents/code/graphs/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/graphs.build/Debug/debug.build/Objects-normal/x86_64/loadNGCE.o /Users/alex/Documents/code/graphs/loadNGCE.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/graphs.build/Debug/debug.build/Objects-normal/x86_64/limits.o /Users/alex/Documents/code/graphs/limits.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/graphs.build/Debug/debug.build/Objects-normal/x86_64/clBasic.o /Users/alex/Documents/code/graphs/clBasic.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/graphs.build/Debug/debug.build/Objects-normal/x86_64/sourceKernel.o /Users/alex/Documents/code/graphs/sourceKernel.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/graphs.build/Debug/debug.build/Objects-normal/x86_64/betweeness.o /Users/alex/Documents/code/graphs/betweeness.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/graphs.build/Debug/debug.build/Objects-normal/x86_64/timing.o /Users/alex/Documents/code/graphs/timing.c normal x86_64 c com.apple.compilers.gcc.4_2
+cLd /Users/alex/Documents/code/graphs/build/Debug/δοκιμές normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenCL.framework/Headers/opencl.h
+c000000004BE85FE0000000000000022A
+t1273520096
+s554
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenCL.framework/OpenCL
+c000000004BF47010000000000000A1FC
+t1274310672
+s41468
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/errno.h
+c000000004AC59C8100000000000003EB
+t1254464641
+s1003
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004AC59C820000000000002DF5
+t1254464642
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004AC59C820000000000001731
+t1254464642
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/resource.h
+c000000004B90BBAA0000000000002436
+t1267776426
+s9270
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
+c000000004AC59C82000000000000178E
+t1254464642
+s6030
+
+N/Users/alex/Documents/code/graphs/betweeness.c
+c000000004CFEA12900000000000010CB
+t1291755817
+s4299
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<errno.h>
+i"betweeness.h"
+i"orders.h"
+i"node.h"
+
+N/Users/alex/Documents/code/graphs/betweeness.h
+c000000004CFE9E0C0000000000000317
+t1291755020
+s791
+i"node.h"
+
+N/Users/alex/Documents/code/graphs/build/Debug/δοκιμές
+t1291755888
+s21256
+
+N/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/Objects-normal/x86_64/betweeness.o
+t1291755888
+s6228
+
+N/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/Objects-normal/x86_64/clBasic.o
+t1291755888
+s9012
+
+N/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/Objects-normal/x86_64/limits.o
+t1291755888
+s4900
+
+N/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/Objects-normal/x86_64/loadNGCE.o
+t1291755888
+s6960
+
+N/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/Objects-normal/x86_64/main.o
+t1291755888
+s5808
+
+N/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/Objects-normal/x86_64/sourceKernel.o
+t1291755888
+s4748
+
+N/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/Objects-normal/x86_64/timing.o
+t1291755888
+s3516
+
+N/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/Objects-normal/x86_64/δοκιμές.LinkFileList
+c000000004CFEA17000000000000002D5
+t1291755888
+s725
+
+N/Users/alex/Documents/code/graphs/clBasic.c
+c000000004CFE97480000000000001654
+t1291753288
+s5716
+i<OpenCL/OpenCL.h>
+i<stdio.h>
+i<stdlib.h>
+i"clBasic.h"
+i"orders.h"
+
+N/Users/alex/Documents/code/graphs/clBasic.h
+c000000004CFD482A00000000000002BF
+t1291667498
+s703
+
+N/Users/alex/Documents/code/graphs/limits.c
+c000000004CF8032800000000000007BA
+t1291322152
+s1978
+i<sys/resource.h>
+i<stdio.h>
+i<stdlib.h>
+i<errno.h>
+i<string.h>
+i"limits.h"
+i"node.h"
+i"orders.h"
+
+N/Users/alex/Documents/code/graphs/limits.h
+c000000004CF7EAF20000000000000152
+t1291315954
+s338
+
+N/Users/alex/Documents/code/graphs/loadNGCE.c
+c000000004CFE9A740000000000000DE7
+t1291754100
+s3559
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<errno.h>
+i"loadNGCE.h"
+i"node.h"
+i"orders.h"
+i"limits.h"
+
+N/Users/alex/Documents/code/graphs/loadNGCE.h
+c000000004CF800680000000000000120
+t1291321448
+s288
+i"node.h"
+
+N/Users/alex/Documents/code/graphs/main.c
+c000000004CFEA1160000000000000B8F
+t1291755798
+s2959
+i<stdlib.h>
+i<stdio.h>
+i<OpenCL/OpenCL.h>
+i"node.h"
+i"loadNGCE.h"
+i"limits.h"
+i"orders.h"
+i"clBasic.h"
+i"sourceKernel.h"
+i"betweeness.h"
+i"timing.h"
+
+N/Users/alex/Documents/code/graphs/node.h
+c000000004CFE96B00000000000000307
+t1291753136
+s775
+
+N/Users/alex/Documents/code/graphs/orders.h
+c000000004CFE9FD300000000000005AD
+t1291755475
+s1453
+
+N/Users/alex/Documents/code/graphs/sourceKernel.c
+c000000004CFE96F100000000000005B4
+t1291753201
+s1460
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<errno.h>
+i"orders.h"
+i"sourceKernel.h"
+
+N/Users/alex/Documents/code/graphs/sourceKernel.h
+c000000004CF7F9600000000000000100
+t1291319648
+s256
+
+N/Users/alex/Documents/code/graphs/timing.c
+c000000004CFE97E800000000000001FE
+t1291753448
+s510
+i<stdio.h>
+i<time.h>
+i"timing.h"
+
+N/Users/alex/Documents/code/graphs/timing.h
+c000000004CFE886700000000000000DF
+t1291749479
+s223
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies313448688#313448688#0(0"0(0#1#0"8622622400#0"0#
+
+CCompileC build/graphs.build/Debug/debug.build/Objects-normal/x86_64/betweeness.o /Users/alex/Documents/code/graphs/betweeness.c normal x86_64 c com.apple.compilers.gcc.4_2
+s313448688.631971
+e313448688.675802
+r1
+xCompileC
+xbuild/graphs.build/Debug/debug.build/Objects-normal/x86_64/betweeness.o
+x/Users/alex/Documents/code/graphs/betweeness.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Documents/code/graphs/betweeness.c: In function 'getNextFromFIFO':
+o/Users/alex/Documents/code/graphs/betweeness.c:32: warning: assignment discards qualifiers from pointer target type
+lSLF07#2@54"Compile /Users/alex/Documents/code/graphs/betweeness.c313448688#313448688#0(195"/Users/alex/Documents/code/graphs/betweeness.c: In function 'getNextFromFIFO':/Users/alex/Documents/code/graphs/betweeness.c:32: warning: assignment discards qualifiers from pointer target type1(22@55"Assignment discards qualifiers from pointer target type313448688#79#116#0(6@46"/Users/alex/Documents/code/graphs/betweeness.c313448617#32#0#32#0#55"assignment discards qualifiers from pointer target type0(0#0#46"/Users/alex/Documents/code/graphs/betweeness.c8634218848#1242"    cd /Users/alex/Documents/code/graphs    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/graphs/build/Debug -I/Users/alex/Documents/code/graphs/build/Debug/include -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/DerivedSources -c /Users/alex/Documents/code/graphs/betweeness.c -o /Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/Objects-normal/x86_64/betweeness.o0#
+
+CCompileC build/graphs.build/Debug/debug.build/Objects-normal/x86_64/clBasic.o /Users/alex/Documents/code/graphs/clBasic.c normal x86_64 c com.apple.compilers.gcc.4_2
+s313448688.577659
+e313448688.645706
+r1
+xCompileC
+xbuild/graphs.build/Debug/debug.build/Objects-normal/x86_64/clBasic.o
+x/Users/alex/Documents/code/graphs/clBasic.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/alex/Documents/code/graphs/clBasic.c313448688#313448688#0(0"0(0#0#43"/Users/alex/Documents/code/graphs/clBasic.c8634497984#1236"    cd /Users/alex/Documents/code/graphs    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/graphs/build/Debug -I/Users/alex/Documents/code/graphs/build/Debug/include -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/DerivedSources -c /Users/alex/Documents/code/graphs/clBasic.c -o /Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/Objects-normal/x86_64/clBasic.o0#
+
+CCompileC build/graphs.build/Debug/debug.build/Objects-normal/x86_64/limits.o /Users/alex/Documents/code/graphs/limits.c normal x86_64 c com.apple.compilers.gcc.4_2
+s313448688.549337
+e313448688.592717
+r1
+xCompileC
+xbuild/graphs.build/Debug/debug.build/Objects-normal/x86_64/limits.o
+x/Users/alex/Documents/code/graphs/limits.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/alex/Documents/code/graphs/limits.c313448688#313448688#0(0"0(0#0#42"/Users/alex/Documents/code/graphs/limits.c8634603808#1234"    cd /Users/alex/Documents/code/graphs    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/graphs/build/Debug -I/Users/alex/Documents/code/graphs/build/Debug/include -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/DerivedSources -c /Users/alex/Documents/code/graphs/limits.c -o /Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/Objects-normal/x86_64/limits.o0#
+
+CCompileC build/graphs.build/Debug/debug.build/Objects-normal/x86_64/loadNGCE.o /Users/alex/Documents/code/graphs/loadNGCE.c normal x86_64 c com.apple.compilers.gcc.4_2
+s313448688.495591
+e313448688.549237
+r1
+xCompileC
+xbuild/graphs.build/Debug/debug.build/Objects-normal/x86_64/loadNGCE.o
+x/Users/alex/Documents/code/graphs/loadNGCE.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/alex/Documents/code/graphs/loadNGCE.c313448688#313448688#0(0"0(0#0#44"/Users/alex/Documents/code/graphs/loadNGCE.c8635406272#1238"    cd /Users/alex/Documents/code/graphs    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/graphs/build/Debug -I/Users/alex/Documents/code/graphs/build/Debug/include -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/DerivedSources -c /Users/alex/Documents/code/graphs/loadNGCE.c -o /Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/Objects-normal/x86_64/loadNGCE.o0#
+
+CCompileC build/graphs.build/Debug/debug.build/Objects-normal/x86_64/main.o /Users/alex/Documents/code/graphs/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+s313448688.494784
+e313448688.577570
+r1
+xCompileC
+xbuild/graphs.build/Debug/debug.build/Objects-normal/x86_64/main.o
+x/Users/alex/Documents/code/graphs/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/alex/Documents/code/graphs/main.c313448688#313448688#0(0"0(0#0#40"/Users/alex/Documents/code/graphs/main.c8635607136#1230"    cd /Users/alex/Documents/code/graphs    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/graphs/build/Debug -I/Users/alex/Documents/code/graphs/build/Debug/include -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/DerivedSources -c /Users/alex/Documents/code/graphs/main.c -o /Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/graphs.build/Debug/debug.build/Objects-normal/x86_64/sourceKernel.o /Users/alex/Documents/code/graphs/sourceKernel.c normal x86_64 c com.apple.compilers.gcc.4_2
+s313448688.592804
+e313448688.631893
+r1
+xCompileC
+xbuild/graphs.build/Debug/debug.build/Objects-normal/x86_64/sourceKernel.o
+x/Users/alex/Documents/code/graphs/sourceKernel.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/alex/Documents/code/graphs/sourceKernel.c313448688#313448688#0(0"0(0#0#48"/Users/alex/Documents/code/graphs/sourceKernel.c8634400800#1246"    cd /Users/alex/Documents/code/graphs    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/graphs/build/Debug -I/Users/alex/Documents/code/graphs/build/Debug/include -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/DerivedSources -c /Users/alex/Documents/code/graphs/sourceKernel.c -o /Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/Objects-normal/x86_64/sourceKernel.o0#
+
+CCompileC build/graphs.build/Debug/debug.build/Objects-normal/x86_64/timing.o /Users/alex/Documents/code/graphs/timing.c normal x86_64 c com.apple.compilers.gcc.4_2
+s313448688.645915
+e313448688.676502
+r1
+xCompileC
+xbuild/graphs.build/Debug/debug.build/Objects-normal/x86_64/timing.o
+x/Users/alex/Documents/code/graphs/timing.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/alex/Documents/code/graphs/timing.c313448688#313448688#0(0"0(0#0#42"/Users/alex/Documents/code/graphs/timing.c8634208192#1234"    cd /Users/alex/Documents/code/graphs    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/graphs/build/Debug -I/Users/alex/Documents/code/graphs/build/Debug/include -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/DerivedSources -c /Users/alex/Documents/code/graphs/timing.c -o /Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/Objects-normal/x86_64/timing.o0#
+
+CLd /Users/alex/Documents/code/graphs/build/Debug/δοκιμές normal x86_64
+s313448688.676555
+e313448688.692314
+r1
+xLd
+x/Users/alex/Documents/code/graphs/build/Debug/δοκιμές
+xnormal
+xx86_64
+lSLF07#2@67"Link /Users/alex/Documents/code/graphs/build/Debug/δοκιμές313448688#313448688#0(0"0(0#0#0"8622629056#506"    cd /Users/alex/Documents/code/graphs    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/alex/Documents/code/graphs/build/Debug -F/Users/alex/Documents/code/graphs/build/Debug -filelist /Users/alex/Documents/code/graphs/build/graphs.build/Debug/debug.build/Objects-normal/x86_64/δοκιμές.LinkFileList -mmacosx-version-min=10.6 -framework OpenCL -o /Users/alex/Documents/code/graphs/build/Debug/δοκιμές0#
+
