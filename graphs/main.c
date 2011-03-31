@@ -21,7 +21,7 @@
 #include "betweeness.h"
 #include "timing.h"
 
-#define GRAPH_PATH "/Users/alex/ngcev2.0/GraphTopology500.txt"
+#define GRAPH_PATH "/Users/alex/Documents/code/ngcev2.0/GraphTopology500.txt"
 #define KERNEL_FILE "/Users/alex/Documents/code/graphs/kernel.cl"
 
 #define COMPUTE_OPENCL
