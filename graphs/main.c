@@ -239,7 +239,5 @@ int main()
 //	free(computedSP);
 #endif
 	
-	
-	
 	return EXIT_SUCCESS;
 }

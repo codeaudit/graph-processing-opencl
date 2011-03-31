@@ -1,11 +1,11 @@
+ffffffffffffffffffffffffffffffff ed2a8f35efbc4594c8e3e7be90f303e0 ffffffffffffffffffffffffffffffff 0 /Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o
+ffffffffffffffffffffffffffffffff 010cc5626f916c1755d9f55a35ea8955 ffffffffffffffffffffffffffffffff 30672 /Users/alex/Documents/code/graphs/build/Debug/δοκιμές
 0000000000001f8f00000000000057db 18607baac624860646133982dc475c00 ffffffffffffffffffffffffffffffff 3516 /Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/timing.o
 000000004cfe9dca0000000000006e2e 23537f786bee8e0b042101bc28646e50 ffffffffffffffffffffffffffffffff 7016 /Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/betweeness.o
 000000004cfea2fb0000000000007946 eff908ab5b979d381b54c41ebbcffdc7 ffffffffffffffffffffffffffffffff 4748 /Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/sourceKernel.o
 000000000716fa5e000000000000494d b302096bbba6a8950cbd2e2f0367d5ac ffffffffffffffffffffffffffffffff 12600 /Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/clBasic.o
 000000004a6394b40000000000005c4e cfd35144f5536635ee71eb5364eb2d7c ffffffffffffffffffffffffffffffff 5272 /Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/limits.o
 0000000001f004200000000000007067 f7233d3126c473d81118763feb0b161a ffffffffffffffffffffffffffffffff 7724 /Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/loadNGCE.o
-000000000778b5e00000000000007631 ed2a8f35efbc4594c8e3e7be90f303e0 ffffffffffffffffffffffffffffffff 11836 /Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o
-b212e6523a2d92446251a8dd5398d049 010cc5626f916c1755d9f55a35ea8955 ffffffffffffffffffffffffffffffff 30672 /Users/alex/Documents/code/graphs/build/Debug/δοκιμές
 000000004cfe979c00000000000065c3 1a907093e7c44a750343a07028d91360 ffffffffffffffffffffffffffffffff 6432 /Users/alex/Documents/code/graphs/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/betweness.o
 ffffffffffffffffffffffffffffffff 366fe21fd01916d71aa7ba6c870ce7cf ffffffffffffffffffffffffffffffff 7620 /Users/alex/Documents/code/γράφοι-opencl/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/loadNGCE.o
 ffffffffffffffffffffffffffffffff 3d86364046056c94d4e331bebdf59bd7 ffffffffffffffffffffffffffffffff 21528 /Users/alex/Documents/code/γράφοι-opencl/build/Debug/δοκιμές
