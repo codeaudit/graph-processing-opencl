@@ -1,0 +1,6 @@
+#Nodes:= 500
+#Initial:= 10
+#m:= 3
+#Class:= FullScaleFreeGraph
+#Seed:= 0
+#Version:= 2.0
