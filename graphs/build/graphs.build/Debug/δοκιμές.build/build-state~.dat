@@ -1,0 +1,117 @@
+Tδοκιμές
+v7
+r0
+t312413186.391537
+cCheck dependencies
+cCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o /Users/alex/Documents/code/opencl/δοκιμές/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/node.o /Users/alex/Documents/code/opencl/δοκιμές/node.c normal x86_64 c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenCL.framework/OpenCL
+c000000004BF47010000000000000A1FC
+t1274310672
+s41468
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/errno.h
+c000000004AC59C8100000000000003EB
+t1254464641
+s1003
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004AC59C820000000000002DF5
+t1254464642
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004AC59C820000000000001731
+t1254464642
+s5937
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/Debug/δοκιμές
+t1289155716
+s9296
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o
+t1290720386
+s4240
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/node.o
+t2
+s0
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/δοκιμές.LinkFileList
+c000000004CEED48100000000000000FC
+t1290720385
+s252
+
+N/Users/alex/Documents/code/opencl/δοκιμές/loadKernel.h
+c000000004CD6FAA200000000000000E2
+t1289157282
+s226
+
+N/Users/alex/Documents/code/opencl/δοκιμές/main.c
+c000000004CD6FA8B00000000000000A1
+t1289157259
+s161
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<errno.h>
+i"loadKernel.h"
+
+N/Users/alex/Documents/code/opencl/δοκιμές/node.c
+c000000004CEED4020000000000000093
+t1290720258
+s147
+i"node.h"
+
+N/Users/alex/Documents/code/opencl/δοκιμές/node.h
+c000000004CEED4800000000000000121
+t1290720384
+s289
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312413185#312413185#0(0"0(0#1#0"9007693182795888#0"0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o /Users/alex/Documents/code/opencl/δοκιμές/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+s312413185.621660
+e312413186.391446
+r1
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o
+x/Users/alex/Documents/code/opencl/δοκιμές/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/alex/Documents/code/opencl/δοκιμές/main.c312413185#312413186#0(0"0(0#0#57"/Users/alex/Documents/code/opencl/δοκιμές/main.c27866224565354612#1494"    cd /Users/alex/Documents/code/opencl/δοκιμές    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/opencl/δοκιμές/build/Debug -I/Users/alex/Documents/code/opencl/δοκιμές/build/Debug/include -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/opencl/δοκιμές/main.c -o /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/node.o /Users/alex/Documents/code/opencl/δοκιμές/node.c normal x86_64 c com.apple.compilers.gcc.4_2
+s312413185.670646
+e312413186.113163
+r0
+xCompileC
+xbuild/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/node.o
+x/Users/alex/Documents/code/opencl/δοκιμές/node.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/alex/Documents/code/opencl/δοκιμές/node.c:10:
+o/Users/alex/Documents/code/opencl/δοκιμές/node.h:15: error: expected specifier-qualifier-list before 'node'
+o/Users/alex/Documents/code/opencl/δοκιμές/node.c:11: error: expected identifier or '(' at end of input
+lSLF07#2@65"Compile /Users/alex/Documents/code/opencl/δοκιμές/node.c312413185#312413186#0(313"In file included from /Users/alex/Documents/code/opencl/δοκιμές/node.c:10:/Users/alex/Documents/code/opencl/δοκιμές/node.h:15: error: expected specifier-qualifier-list before 'node'/Users/alex/Documents/code/opencl/δοκιμές/node.c:11: error: expected identifier or '(' at end of input2(4@47"Expected specifier-qualifier-list before 'node'312413185#76#109#2(7@79"In file included from /Users/alex/Documents/code/opencl/δοκιμές/node.c312413185#18446744073709551615#0#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/node.c312413058#10#0#10#0#0"0(13@108"Expected specifier-qualifier-list before 'node' in /Users/alex/Documents/code/opencl/δοκιμές/node.h312413185#18446744073709551615#0#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/node.h312413184#15#0#15#0#0"0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/node.h312413184#15#0#15#0#19"expected * before *0(4@42"Expected identifier or '(' at end of input312413185#185#104#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/node.c312413058#11#0#11#0#0"0(0#0#57"/Users/alex/Documents/code/opencl/δοκιμές/node.c8614495232#1494"    cd /Users/alex/Documents/code/opencl/δοκιμές    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/opencl/δοκιμές/build/Debug -I/Users/alex/Documents/code/opencl/δοκιμές/build/Debug/include -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/opencl/δοκιμές/node.c -o /Users/alex/Documents/code/opencl/δοκιμές/build/graphs.build/Debug/δοκιμές.build/Objects-normal/x86_64/node.o1#
+
+CLd /Users/alex/Documents/code/opencl/δοκιμές/build/Debug/δοκιμές normal x86_64
+r0
+

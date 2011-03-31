@@ -1,0 +1,131 @@
+Tδοκιμές
+v7
+r0
+t308854731.662023
+cCheck dependencies
+cCompileC build/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o /Users/alex/Documents/code/opencl/δοκιμές/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenCL.framework/Headers/opencl.h
+c000000004BE85FE0000000000000022A
+t1273520096
+s554
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/mach/mach_time.h
+c000000004B90BBA70000000000000746
+t1267776423
+s1862
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004AC599B500000000000004F1
+t1254463925
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004AC59C820000000000002DF5
+t1254464642
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004AC59C820000000000001731
+t1254464642
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/stat.h
+c000000004B90BBAA0000000000004A1D
+t1267776426
+s18973
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004B90BBAB0000000000002905
+t1267776427
+s10501
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h
+c000000004AC59DB70000000000000644
+t1254464951
+s1604
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/Debug/δοκιμές
+t2
+s0
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/δοκιμές.LinkFileList
+c000000004CB8884B0000000000000086
+t1287161931
+s134
+
+N/Users/alex/Documents/code/opencl/δοκιμές/main.c
+c000000004CB888450000000000001403
+t1287161925
+s5123
+i<stdio.h>
+i<stdlib.h>
+i<math.h>
+i<string.h>
+i<stdbool.h>
+i<sys/types.h>
+i<sys/stat.h>
+i<OpenCL/opencl.h>
+i<mach/mach_time.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies308854731#308854731#0(0"0(0#1#0"270782969222529984#0"0#
+
+CCompileC build/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o /Users/alex/Documents/code/opencl/δοκιμές/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+s308854731.330976
+e308854731.661661
+r0
+xCompileC
+xbuild/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o
+x/Users/alex/Documents/code/opencl/δοκιμές/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Documents/code/opencl/δοκιμές/main.c:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'device'
+o/Users/alex/Documents/code/opencl/δοκιμές/main.c: In function 'compute_sumints':
+o/Users/alex/Documents/code/opencl/δοκιμές/main.c:85: warning: implicit declaration of function 'clGetDeviceGroupInfo'
+o/Users/alex/Documents/code/opencl/δοκιμές/main.c:85: error: 'device' undeclared (first use in this function)
+o/Users/alex/Documents/code/opencl/δοκιμές/main.c:85: error: (Each undeclared identifier is reported only once
+o/Users/alex/Documents/code/opencl/δοκιμές/main.c:85: error: for each function it appears in.)
+o/Users/alex/Documents/code/opencl/δοκιμές/main.c:85: error: 'CL_DEVICE_IDS' undeclared (first use in this function)
+o/Users/alex/Documents/code/opencl/δοκιμές/main.c:91: warning: implicit declaration of function 'clGetDeviceConfigInfo'
+o/Users/alex/Documents/code/opencl/δοκιμές/main.c:91: error: 'CL_DEVICE_MAX_THREAD_GROUP_SIZE' undeclared (first use in this function)
+o/Users/alex/Documents/code/opencl/δοκιμές/main.c:94: error: too few arguments to function 'clCreateProgramWithSource'
+o/Users/alex/Documents/code/opencl/δοκιμές/main.c:101: warning: implicit declaration of function 'clBuildProgramExecutable'
+o/Users/alex/Documents/code/opencl/δοκιμές/main.c:108: error: too few arguments to function 'clCreateKernel'
+o/Users/alex/Documents/code/opencl/δοκιμές/main.c:115: warning: implicit declaration of function 'clCreateArray'
+o/Users/alex/Documents/code/opencl/δοκιμές/main.c:115: error: 'CL_MEM_ALLOC_GLOBAL_POOL' undeclared (first use in this function)
+o/Users/alex/Documents/code/opencl/δοκιμές/main.c:115: warning: assignment makes pointer from integer without a cast
+o/Users/alex/Documents/code/opencl/δοκιμές/main.c:124: warning: assignment makes pointer from integer without a cast
+o/Users/alex/Documents/code/opencl/δοκιμές/main.c:135: warning: implicit declaration of function 'clSetKernelArgs'
+o/Users/alex/Documents/code/opencl/δοκιμές/main.c:144: warning: implicit declaration of function 'clExecuteKernel'
+o/Users/alex/Documents/code/opencl/δοκιμές/main.c:151: warning: implicit declaration of function 'clReadArray'
+o/Users/alex/Documents/code/opencl/δοκιμές/main.c: In function 'init_compute':
+o/Users/alex/Documents/code/opencl/δοκιμές/main.c:185: warning: implicit declaration of function 'clGetComputeDevices'
+o/Users/alex/Documents/code/opencl/δοκιμές/main.c:191: error: 'device' undeclared (first use in this function)
+o/Users/alex/Documents/code/opencl/δοκιμές/main.c:191: warning: implicit declaration of function 'clCreateDeviceGroup'
+o/Users/alex/Documents/code/opencl/δοκιμές/main.c:198: error: too few arguments to function 'clCreateContext'
+o/Users/alex/Documents/code/opencl/δοκιμές/main.c: In function 'release_compute':
+o/Users/alex/Documents/code/opencl/δοκιμές/main.c:211: warning: implicit declaration of function 'clReleaseDeviceGroup'
+o/Users/alex/Documents/code/opencl/δοκιμές/main.c:211: error: 'device' undeclared (first use in this function)
+lSLF07#2@65"Compile /Users/alex/Documents/code/opencl/δοκιμές/main.c308854731#308854731#0(3251"/Users/alex/Documents/code/opencl/δοκιμές/main.c:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'device'/Users/alex/Documents/code/opencl/δοκιμές/main.c: In function 'compute_sumints':/Users/alex/Documents/code/opencl/δοκιμές/main.c:85: warning: implicit declaration of function 'clGetDeviceGroupInfo'/Users/alex/Documents/code/opencl/δοκιμές/main.c:85: error: 'device' undeclared (first use in this function)/Users/alex/Documents/code/opencl/δοκιμές/main.c:85: error: (Each undeclared identifier is reported only once/Users/alex/Documents/code/opencl/δοκιμές/main.c:85: error: for each function it appears in.)/Users/alex/Documents/code/opencl/δοκιμές/main.c:85: error: 'CL_DEVICE_IDS' undeclared (first use in this function)/Users/alex/Documents/code/opencl/δοκιμές/main.c:91: warning: implicit declaration of function 'clGetDeviceConfigInfo'/Users/alex/Documents/code/opencl/δοκιμές/main.c:91: error: 'CL_DEVICE_MAX_THREAD_GROUP_SIZE' undeclared (first use in this function)/Users/alex/Documents/code/opencl/δοκιμές/main.c:94: error: too few arguments to function 'clCreateProgramWithSource'/Users/alex/Documents/code/opencl/δοκιμές/main.c:101: warning: implicit declaration of function 'clBuildProgramExecutable'/Users/alex/Documents/code/opencl/δοκιμές/main.c:108: error: too few arguments to function 'clCreateKernel'/Users/alex/Documents/code/opencl/δοκιμές/main.c:115: warning: implicit declaration of function 'clCreateArray'/Users/alex/Documents/code/opencl/δοκιμές/main.c:115: error: 'CL_MEM_ALLOC_GLOBAL_POOL' undeclared (first use in this function)/Users/alex/Documents/code/opencl/δοκιμές/main.c:115: warning: assignment makes pointer from integer without a cast/Users/alex/Documents/code/opencl/δοκιμές/main.c:124: warning: assignment makes pointer from integer without a cast/Users/alex/Documents/code/opencl/δοκιμές/main.c:135: warning: implicit declaration of function 'clSetKernelArgs'/Users/alex/Documents/code/opencl/δοκιμές/main.c:144: warning: implicit declaration of function 'clExecuteKernel'/Users/alex/Documents/code/opencl/δοκιμές/main.c:151: warning: implicit declaration of function 'clReadArray'/Users/alex/Documents/code/opencl/δοκιμές/main.c: In function 'init_compute':/Users/alex/Documents/code/opencl/δοκιμές/main.c:185: warning: implicit declaration of function 'clGetComputeDevices'/Users/alex/Documents/code/opencl/δοκιμές/main.c:191: error: 'device' undeclared (first use in this function)/Users/alex/Documents/code/opencl/δοκιμές/main.c:191: warning: implicit declaration of function 'clCreateDeviceGroup'/Users/alex/Documents/code/opencl/δοκιμές/main.c:198: error: too few arguments to function 'clCreateContext'/Users/alex/Documents/code/opencl/δοκιμές/main.c: In function 'release_compute':/Users/alex/Documents/code/opencl/δοκιμές/main.c:211: warning: implicit declaration of function 'clReleaseDeviceGroup'/Users/alex/Documents/code/opencl/δοκιμές/main.c:211: error: 'device' undeclared (first use in this function)22(4@64"Expected '=', ',', ';', 'asm' or '__attribute__' before 'device'308854731#0#126#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c308854725#11#0#11#0#19"expected * before *0(22@55"Implicit declaration of function 'clGetDeviceGroupInfo'308854731#208#119#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c308854725#85#0#85#0#36"implicit declaration of function '*'0(4@48"'device' undeclared (first use in this function)308854731#327#110#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c308854725#85#0#85#0#43"'*' undeclared (first use in this function)0(4@55"'CL_DEVICE_IDS' undeclared (first use in this function)308854731#643#117#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c308854725#85#0#85#0#43"'*' undeclared (first use in this function)0(22@56"Implicit declaration of function 'clGetDeviceConfigInfo'308854731#760#120#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c308854725#91#0#91#0#36"implicit declaration of function '*'0(4@73"'CL_DEVICE_MAX_THREAD_GROUP_SIZE' undeclared (first use in this function)308854731#880#135#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c308854725#91#0#91#0#43"'*' undeclared (first use in this function)0(4@57"Too few arguments to function 'clCreateProgramWithSource'308854731#1015#119#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c308854725#94#0#94#0#33"too few arguments to function '*'0(22@59"Implicit declaration of function 'clBuildProgramExecutable'308854731#1134#124#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c308854725#101#0#101#0#36"implicit declaration of function '*'0(4@46"Too few arguments to function 'clCreateKernel'308854731#1258#109#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c308854725#108#0#108#0#33"too few arguments to function '*'0(22@48"Implicit declaration of function 'clCreateArray'308854731#1367#113#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c308854725#115#0#115#0#36"implicit declaration of function '*'0(4@66"'CL_MEM_ALLOC_GLOBAL_POOL' undeclared (first use in this function)308854731#1480#129#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c308854725#115#0#115#0#43"'*' undeclared (first use in this function)0(22@52"Assignment makes pointer from integer without a cast308854731#1609#117#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c308854725#115#0#115#0#0"0(22@52"Assignment makes pointer from integer without a cast308854731#1726#117#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c308854725#124#0#124#0#0"0(22@50"Implicit declaration of function 'clSetKernelArgs'308854731#1843#115#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c308854725#135#0#135#0#36"implicit declaration of function '*'0(22@50"Implicit declaration of function 'clExecuteKernel'308854731#1958#115#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c308854725#144#0#144#0#36"implicit declaration of function '*'0(22@46"Implicit declaration of function 'clReadArray'308854731#2073#111#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c308854725#151#0#151#0#36"implicit declaration of function '*'0(22@54"Implicit declaration of function 'clGetComputeDevices'308854731#2263#119#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c308854725#185#0#185#0#36"implicit declaration of function '*'0(4@48"'device' undeclared (first use in this function)308854731#2382#111#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c308854725#191#0#191#0#43"'*' undeclared (first use in this function)0(22@54"Implicit declaration of function 'clCreateDeviceGroup'308854731#2493#119#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c308854725#191#0#191#0#36"implicit declaration of function '*'0(4@47"Too few arguments to function 'clCreateContext'308854731#2612#110#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c308854725#198#0#198#0#33"too few arguments to function '*'0(22@55"Implicit declaration of function 'clReleaseDeviceGroup'308854731#2804#120#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c308854725#211#0#211#0#36"implicit declaration of function '*'0(4@48"'device' undeclared (first use in this function)308854731#2924#111#0(6@57"/Users/alex/Documents/code/opencl/δοκιμές/main.c308854725#211#0#211#0#43"'*' undeclared (first use in this function)0(0#0#57"/Users/alex/Documents/code/opencl/δοκιμές/main.c13229817834242158#1564"    cd /Users/alex/Documents/code/opencl/δοκιμές    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/opencl/δοκιμές/build/Debug -I/Users/alex/Documents/code/opencl/δοκιμές/build/Debug/include -I/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/opencl/δοκιμές/main.c -o /Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o1#
+
+CLd /Users/alex/Documents/code/opencl/δοκιμές/build/Debug/δοκιμές normal x86_64
+r0
+

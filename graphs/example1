@@ -1,0 +1,191 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <string.h>
+#include <stdbool.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <OpenCL/opencl.h>
+#include <mach/mach_time.h>
+
+const char * sProgramSource = 
+"__kernel void vectorAdd(              \n" \
+"__global const float * a,             \n" \
+"__global const float * b,             \n" \
+"__global   float * c)                 \n" \
+"{                                     \n" \
+"   // Vector element index            \n" \
+"   int nIndex = get_global_id(0);     \n" \
+"   c[nIndex] = a[nIndex] + b[nIndex]; \n" \
+"}                                     \n";
+
+int main (int argc, const char * argv[])
+{
+	const unsigned int cnBlockSize= 512;
+	const unsigned int cnBlocks =3;
+	size_t cnDimension = cnBlocks * cnBlockSize;
+	int err;
+	cl_device_id device_id;
+	size_t local;
+	size_t len;
+	char buffer[2048];
+	
+	int gpu = 1;
+	err = clGetDeviceIDs(NULL, gpu ? CL_DEVICE_TYPE_GPU : CL_DEVICE_TYPE_CPU, 1, &device_id, NULL);
+	if (err != CL_SUCCESS)
+	{
+		printf("Error: Failed to get device ID\n");
+		exit(1);
+	}
+	
+	err = clGetDeviceInfo(device_id, CL_DEVICE_NAME, sizeof(buffer), buffer, &len);
+	printf("CL_DEVICE_NAME: %s\n", buffer);
+	err = clGetDeviceInfo(device_id, CL_DEVICE_VENDOR, sizeof(buffer), buffer, &len);
+	printf("CL_DEVICE_VENDOR: %s\n", buffer);
+	
+	// create OpenCL device & context
+	cl_context hContext;
+	hContext = clCreateContext(0, 1, &device_id, NULL, NULL, &err);
+	if (err != CL_SUCCESS)
+	{
+		printf("Error: Failed to create context\n");
+		exit(1);
+	}
+	
+	// create a command queue for our device
+	cl_command_queue hCmdQueue;
+	hCmdQueue = clCreateCommandQueue(hContext, device_id, 0, 0);
+	
+	// create & compile program
+	cl_program hProgram;
+	hProgram = clCreateProgramWithSource(hContext, 1, (const char **) &sProgramSource, NULL, &err);
+	if (!hProgram || err != CL_SUCCESS)
+	{
+		printf("Error: Failed to Create program with source\n");
+		exit(1);
+	}
+	
+	err = clBuildProgram(hProgram, 0, NULL, NULL, NULL, NULL);
+	if (err != CL_SUCCESS)
+	{
+		printf("Error: Failed to build program executable\n");
+		clGetProgramBuildInfo(hProgram, device_id, CL_PROGRAM_BUILD_LOG,
+							  sizeof(buffer), buffer, &len);
+		printf("%s\n", buffer);
+		exit(1);
+	}
+	
+	// create kernel
+	cl_kernel hKernel;
+	hKernel = clCreateKernel(hProgram, "vectorAdd", &err);
+	if (!hKernel || err != CL_SUCCESS)
+	{
+		printf("Error: Failed to create kernel\n");
+		exit(1);
+	}
+	
+	// allocate host vectors
+	/*	float * pA = new float[cnDimension];
+	 float * pB = new float[cnDimension];
+	 float * pC = new float[cnDimension];
+	 float * pC1 = new float[cnDimension]; */
+	float *pA = malloc(sizeof(float) * cnDimension);
+	float *pB = malloc(sizeof(float) * cnDimension);
+	float *pC = malloc(sizeof(float) * cnDimension);
+	float *pC1 = malloc(sizeof(float) * cnDimension);
+	
+	memset(pC, 0, cnDimension * sizeof(float));
+	memset(pC1, 0, cnDimension * sizeof(float));
+	
+	// initialize host memory
+	int i;
+	for(i=0; i < cnDimension; i++)
+	{
+		pA[i] = pC[i] = pC1[i] = 0;
+		pB[i] = i;
+		//      pA[i] = rand() % 10 + 1;
+		//      pB[i] = rand() % 10 + 1;
+	}
+	
+	// allocate device memory
+	cl_mem hDeviceMemA, hDeviceMemB, hDeviceMemC;
+	hDeviceMemA = clCreateBuffer(hContext,
+								 CL_MEM_READ_ONLY | CL_MEM_COPY_HOST_PTR, cnDimension * sizeof(cl_float), pA, 0);
+	hDeviceMemB = clCreateBuffer(hContext,
+								 CL_MEM_READ_ONLY | CL_MEM_COPY_HOST_PTR, cnDimension * sizeof(cl_float), pB, 0);
+	hDeviceMemC = clCreateBuffer(hContext,
+								 CL_MEM_WRITE_ONLY, cnDimension * sizeof(cl_float), 0, 0);
+	
+	// setup parameter values
+	err = 0;
+	err  = clSetKernelArg(hKernel, 0, sizeof(cl_mem), (void *)&hDeviceMemA);
+	err |= clSetKernelArg(hKernel, 1, sizeof(cl_mem), (void *)&hDeviceMemB);
+	err |= clSetKernelArg(hKernel, 2, sizeof(cl_mem), (void *)&hDeviceMemC);
+	if (err != CL_SUCCESS)
+	{
+		printf("Error: Failed to set kernel args\n");
+		exit(1);
+	}
+	
+	// Get the maximum work-group size for executing the kernel on the device
+	err = clGetKernelWorkGroupInfo(hKernel, device_id, CL_KERNEL_WORK_GROUP_SIZE, sizeof(local), &local, NULL);
+	if (err != CL_SUCCESS)
+	{
+		printf("Error: clGetKernelWorkGroupInfo Failed\n");
+		exit(1);
+	}
+	
+	// execute kernel
+	err = clEnqueueNDRangeKernel(hCmdQueue, hKernel, 1, NULL, (size_t*)(&cnDimension), &local, 0, NULL, NULL);
+	if (err != CL_SUCCESS)
+	{
+		printf("Error: clEnqueueNDRangeKernel Failed\n");
+		exit(1);
+	}
+	// copy results from device back to host
+	clEnqueueReadBuffer(hCmdQueue, hDeviceMemC, CL_TRUE, 0, cnDimension * sizeof(cl_float),
+						pC, 0, NULL, NULL);
+	
+	// wait for command queue
+	clFinish(hCmdQueue);
+	
+	bool valid = true;
+	for(i=0; i < cnDimension; i++)
+	{
+		pC1[i] = pA[i] + pB[i];
+		if (pC[i] != pC1[i])
+		{
+			printf("Error: %0.2f != %0.2f\n", pC[i], pC1[i]);
+			valid = false;
+		}
+	}
+	
+	printf("Number of elements : %d\n", cnDimension);
+	printf("First Element: %0.2f\n", pC[0]);
+	printf("Last Element : %0.2f\n\n", pC[cnDimension-1]);
+	if (valid) {
+		printf("Test passed\n");
+	}
+	else {
+		printf("Test failed\n");
+	}
+	
+	
+	/*	delete[] pA;
+	 delete[] pB; 
+	 delete[] pC;
+	 delete[] pC1; */
+	free(pA);
+	free(pB);
+	free(pC);
+	free(pC1);
+	
+	clReleaseMemObject(hDeviceMemA); 
+	clReleaseMemObject(hDeviceMemB); 
+	clReleaseMemObject(hDeviceMemC);
+	clReleaseProgram(hProgram);
+	clReleaseKernel(hKernel);
+	clReleaseCommandQueue(hCmdQueue);
+	clReleaseContext(hContext);
+    return 0;
+}

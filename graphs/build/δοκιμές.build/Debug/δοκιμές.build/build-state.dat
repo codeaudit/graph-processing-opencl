@@ -1,0 +1,260 @@
+Tδοκιμές
+v7
+r0
+t310850059.768383
+cCheck dependencies
+cCompileC build/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o /Users/alex/Documents/code/opencl/δοκιμές/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/loadKernel.o /Users/alex/Documents/code/opencl/δοκιμές/loadKernel.c normal x86_64 c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenCL.framework/Headers/opencl.h
+c000000004BE85FE0000000000000022A
+t1273520096
+s554
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenCL.framework/OpenCL
+c000000004BF47010000000000000A1FC
+t1274310672
+s41468
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/errno.h
+c000000004AC59C8100000000000003EB
+t1254464641
+s1003
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/fcntl.h
+c000000004AC59C8100000000000003EA
+t1254464641
+s1002
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/mach/mach_time.h
+c000000004B90BBA70000000000000746
+t1267776423
+s1862
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004AC599B500000000000004F1
+t1254463925
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004AC59C820000000000002DF5
+t1254464642
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004AC59C820000000000001731
+t1254464642
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/stat.h
+c000000004B90BBAA0000000000004A1D
+t1267776426
+s18973
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004B90BBAB0000000000002905
+t1267776427
+s10501
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004AC59C82000000000000563E
+t1254464642
+s22078
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdbool.h
+c000000004AC59DB70000000000000644
+t1254464951
+s1604
+
+N/System/Library/Frameworks/OpenCL.framework/OpenCL
+c000000004C1171610000000000056930
+t1276211553
+s354608
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/Debug/δοκιμές
+t1289155716
+s9296
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/Debug/δοκιμές
+t1289155716
+s9296
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/example1.o
+t1289046184
+s9752
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/kernel.o
+t1289139558
+s1532
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/loadKernel.o
+t2
+s0
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/loadkernel.o
+t1289154319
+s4352
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o
+t1289157257
+s4232
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/δοκιμές.LinkFileList
+c000000004CD6F4840000000000000116
+t1289155716
+s278
+
+N/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/δοκιμές.LinkFileList
+c000000004CB8884B0000000000000086
+t1287161931
+s134
+
+N/Users/alex/Documents/code/opencl/δοκιμές/example1.c
+c000000004CD548690000000000001504
+t1289046121
+s5380
+i<stdio.h>
+i<stdlib.h>
+i<math.h>
+i<string.h>
+i<stdbool.h>
+i<sys/types.h>
+i<sys/stat.h>
+i<OpenCL/opencl.h>
+i<mach/mach_time.h>
+
+N/Users/alex/Documents/code/opencl/δοκιμές/example1.h
+c000000004CD54853000000000000008E
+t1289046099
+s142
+
+N/Users/alex/Documents/code/opencl/δοκιμές/kernel.c
+c000000004CD6B286000000000000008D
+t1289138822
+s141
+
+N/Users/alex/Documents/code/opencl/δοκιμές/loadKernel.c
+c000000004CD6F4D400000000000000D3
+t1289155796
+s211
+
+N/Users/alex/Documents/code/opencl/δοκιμές/loadKernel.h
+c000000004CD6FAA200000000000000E2
+t1289157282
+s226
+
+N/Users/alex/Documents/code/opencl/δοκιμές/loadkernel.c
+c000000004CD6EF1000000000000002BE
+t1289154320
+s702
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<errno.h>
+i"loadkernel.h"
+
+N/Users/alex/Documents/code/opencl/δοκιμές/loadkernel.h
+c000000004CD6F28B00000000000000E2
+t1289155211
+s226
+
+N/Users/alex/Documents/code/opencl/δοκιμές/main.c
+c000000004CD6FA8B00000000000000A1
+t1289157259
+s161
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<errno.h>
+i"loadKernel.h"
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies310850059#310850059#0(0"0(0#1#0"8625308832#0"0#
+
+CCompileC build/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/example1.o /Users/alex/Documents/code/opencl/δοκιμές/example1.c normal x86_64 c com.apple.compilers.gcc.4_2
+s310738984.223984
+e310738984.298820
+r1
+xCompileC
+xbuild/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/example1.o
+x/Users/alex/Documents/code/opencl/δοκιμές/example1.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Documents/code/opencl/δοκιμές/example1.c: In function 'main':
+o/Users/alex/Documents/code/opencl/δοκιμές/example1.c:163: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'
+lSLF07#2@69"Compile /Users/alex/Documents/code/opencl/δοκιμές/example1.c310738984#310738984#0(224"/Users/alex/Documents/code/opencl/δοκιμές/example1.c: In function 'main':/Users/alex/Documents/code/opencl/δοκιμές/example1.c:163: warning: format '%d' expects type 'int', but argument 2 has type 'size_t'1(22@64"Format '%d' expects type 'int', but argument 2 has type 'size_t'310738984#75#133#0(6@61"/Users/alex/Documents/code/opencl/δοκιμές/example1.c310738921#163#0#163#0#56"format '*' expects type '*', but argument * has type '*'0(0#0#61"/Users/alex/Documents/code/opencl/δοκιμές/example1.c8626603936#1572"    cd /Users/alex/Documents/code/opencl/δοκιμές    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/opencl/δοκιμές/build/Debug -I/Users/alex/Documents/code/opencl/δοκιμές/build/Debug/include -I/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/opencl/δοκιμές/example1.c -o /Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/example1.o0#
+
+CCompileC build/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/kernel.o /Users/alex/Documents/code/opencl/δοκιμές/kernel.c normal x86_64 c com.apple.compilers.gcc.4_2
+s310832357.614127
+e310832358.091401
+r1
+xCompileC
+xbuild/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/kernel.o
+x/Users/alex/Documents/code/opencl/δοκιμές/kernel.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/alex/Documents/code/opencl/δοκιμές/kernel.c310832357#310832358#0(0"0(0#0#59"/Users/alex/Documents/code/opencl/δοκιμές/kernel.c8622660064#1568"    cd /Users/alex/Documents/code/opencl/δοκιμές    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/opencl/δοκιμές/build/Debug -I/Users/alex/Documents/code/opencl/δοκιμές/build/Debug/include -I/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/opencl/δοκιμές/kernel.c -o /Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/kernel.o0#
+
+CCompileC build/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/loadKernel.o /Users/alex/Documents/code/opencl/δοκιμές/loadKernel.c normal x86_64 c com.apple.compilers.gcc.4_2
+s310850059.735279
+e310850059.768320
+r0
+xCompileC
+xbuild/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/loadKernel.o
+x/Users/alex/Documents/code/opencl/δοκιμές/loadKernel.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Documents/code/opencl/δοκιμές/loadKernel.c: In function 'goofy':
+o/Users/alex/Documents/code/opencl/δοκιμές/loadKernel.c:13: warning: implicit declaration of function 'fprintf'
+o/Users/alex/Documents/code/opencl/δοκιμές/loadKernel.c:13: warning: incompatible implicit declaration of built-in function 'fprintf'
+o/Users/alex/Documents/code/opencl/δοκιμές/loadKernel.c:13: error: 'stdout' undeclared (first use in this function)
+o/Users/alex/Documents/code/opencl/δοκιμές/loadKernel.c:13: error: (Each undeclared identifier is reported only once
+o/Users/alex/Documents/code/opencl/δοκιμές/loadKernel.c:13: error: for each function it appears in.)
+lSLF07#2@71"Compile /Users/alex/Documents/code/opencl/δοκιμές/loadKernel.c310850059#310850059#0(706"/Users/alex/Documents/code/opencl/δοκιμές/loadKernel.c: In function 'goofy':/Users/alex/Documents/code/opencl/δοκιμές/loadKernel.c:13: warning: implicit declaration of function 'fprintf'/Users/alex/Documents/code/opencl/δοκιμές/loadKernel.c:13: warning: incompatible implicit declaration of built-in function 'fprintf'/Users/alex/Documents/code/opencl/δοκιμές/loadKernel.c:13: error: 'stdout' undeclared (first use in this function)/Users/alex/Documents/code/opencl/δοκιμές/loadKernel.c:13: error: (Each undeclared identifier is reported only once/Users/alex/Documents/code/opencl/δοκιμές/loadKernel.c:13: error: for each function it appears in.)3(22@42"Implicit declaration of function 'fprintf'310850059#78#112#0(6@63"/Users/alex/Documents/code/opencl/δοκιμές/loadKernel.c310848596#13#0#13#0#36"implicit declaration of function '*'0(22@64"Incompatible implicit declaration of built-in function 'fprintf'310850059#190#134#0(6@63"/Users/alex/Documents/code/opencl/δοκιμές/loadKernel.c310848596#13#0#13#0#0"0(4@48"'stdout' undeclared (first use in this function)310850059#324#116#0(6@63"/Users/alex/Documents/code/opencl/δοκιμές/loadKernel.c310848596#13#0#13#0#43"'*' undeclared (first use in this function)0(0#0#63"/Users/alex/Documents/code/opencl/δοκιμές/loadKernel.c8625197792#1576"    cd /Users/alex/Documents/code/opencl/δοκιμές    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/opencl/δοκιμές/build/Debug -I/Users/alex/Documents/code/opencl/δοκιμές/build/Debug/include -I/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/opencl/δοκιμές/loadKernel.c -o /Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/loadKernel.o1#
+
+CCompileC build/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/loadkernel.o /Users/alex/Documents/code/opencl/δοκιμές/loadkernel.c normal x86_64 c com.apple.compilers.gcc.4_2
+s310847128.460089
+e310847128.461056
+r1
+xCompileC
+xbuild/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/loadkernel.o
+x/Users/alex/Documents/code/opencl/δοκιμές/loadkernel.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/alex/Documents/code/opencl/δοκιμές/loadkernel.c310847128#310847128#0(0"0(0#0#63"/Users/alex/Documents/code/opencl/δοκιμές/loadkernel.c8620711008#1576"    cd /Users/alex/Documents/code/opencl/δοκιμές    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/δοκιμές-generated-files.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/δοκιμές-own-target-headers.hmap -I/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/δοκιμές-all-target-headers.hmap -iquote /Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/δοκιμές-project-headers.hmap -F/Users/alex/Documents/code/opencl/δοκιμές/build/Debug -I/Users/alex/Documents/code/opencl/δοκιμές/build/Debug/include -I/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/DerivedSources/x86_64 -I/Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/DerivedSources -c /Users/alex/Documents/code/opencl/δοκιμές/loadkernel.c -o /Users/alex/Documents/code/opencl/δοκιμές/build/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/loadkernel.o0#
+
+CCompileC build/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o /Users/alex/Documents/code/opencl/δοκιμές/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/δοκιμές.build/Debug/δοκιμές.build/Objects-normal/x86_64/main.o /Users/alex/Documents/code/opencl/δοκιμές/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CLd /Users/alex/Documents/code/opencl/δοκιμές/build/Debug/δοκιμές normal x86_64
+r0
+
+CLd /Users/alex/Documents/code/opencl/δοκιμές/build/Debug/δοκιμές normal x86_64
+r0
+
